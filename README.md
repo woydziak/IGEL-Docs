@@ -11,4 +11,4 @@
 
 ## Howto's
 
-- [Re-enable TLSv1 and TLSv1.1 on UMS](Docs/Re-enable_TLSv1_and_TLSv11_on_UMS)
+- [Re-enable TLSv1 and TLSv1.1 on UMS](Docs/Re-enable_TLSv1_and_TLSv11_on_UMS.md)
