@@ -1,5 +1,8 @@
 # IGEL-Docs
 
+IGEL-Docs is a repository hosting all kind of IGEL-Community related documentation.
+The provided documentation is without any warranty or support by IGEL Technology.
+
 ## CheatSheets
 
 - [IGEL-Community-Cheatsheet](Docs/IGEL-Community-Cheatsheet.md)
@@ -7,6 +10,8 @@
 ### Detailed
 
 - [Linux-General](Docs/Cheatsheet-Linux-General.md)
+- [IGELOS-General](Docs/Cheatsheet-IGELOS-General.md)
+- [IGELOS-Hardware](Docs/Cheatsheet-IGELOS-Hardware.md)
 - [IGELOS-Networking](Docs/Cheatsheet-IGELOS-Networking.md)
 
 ## Howto's
