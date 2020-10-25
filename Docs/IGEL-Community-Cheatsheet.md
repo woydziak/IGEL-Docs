@@ -1,4 +1,4 @@
-# IGEL-Community-Cheatsheet
+# IGEL-Community Cheatsheet
 
 ## [Linux-General](Cheatsheet-Linux-General.md)
 
@@ -14,11 +14,11 @@
 | [grep](Cheatsheet-Linux-General.md#grep)                   | search for regular expression              |
 | [kill](Cheatsheet-Linux-General.md#kill)                   | kill a running task by process id          |
 | [killall](Cheatsheet-Linux-General.md#killall)             | kill a running task by name                |
-| [lpc]                                                      | Printer control tool                       |
-| [lpq]                                                      | Show current print jobs                    |
-| [lpr]                                                      | Print a file                               |
-| [lprm]                                                     | Delete a print job                         |
-| [lpstat]                                                   | Show finished print jobs                   |
+| lpc                                                        | Printer control tool                       |
+| lpq                                                        | Show current print jobs                    |
+| lpr                                                        | Print a file                               |
+| lprm                                                       | Delete a print job                         |
+| lpstat                                                     | Show finished print jobs                   |
 | [ls](Cheatsheet-Linux-General.md#ls)                       | show directory content                     |
 | [mkdir](Cheatsheet-Linux-General.md#mkdir)                 | create a folder                            |
 | [more](Cheatsheet-Linux-General.md#more)                   | display the content of a file page by page |
@@ -41,62 +41,61 @@
 
 ## [IGELOS-General](Cheatsheet-IGELOS-General.md)
 
-| command         | description                              |
-|-----------------|------------------------------------------|
-| apparmor_status | Lists all services protected by apparmor |
-| applauncher                                       | Starts the application launcher                             |                                                                                                                                                            |
-| curl https://fqdn.of.website                | Command line tool to check for trusted certificate |
-| df -h                                       | Shows Partition usage                              |
-| florence                                    | OnScreen Keyboard                                  |
-| getmyip                                           | cut -d. -f1-4                                               | show device IP only.                                                                                                                                       |
-| gpicview                                          | Starts an Picture Viewer                                    |                                                                                                                                                            |
-| icaconncenter                                     | ICA Connection Center                                       |                                                                                                                                                            |
-| icg-config -s cloud-gateway.info -o 1234          | IGEL Cloud Gateway config; with url and mass deployment key |                                                                                                                                                            |
-| icg-setup                                         | Start the ICG GUI Setup or with parameters the CLI          |                                                                                                                                                            |
-| igel_buddy_update_server_scan                     | Search for Buddy Masters in network                         |                                                                                                                                                            |
-| igel_display_switcher                             | Start the new Display Switcher                              |                                                                                                                                                            |
-| igel_firstboot_wizard                             | Starts the First Boot Wizard                                |                                                                                                                                                            |
-| igel_gamma                                        | TOCHECK Should influence the brightness                     |                                                                                                                                                            |
-| journalctl -f                                     | Sys logs anzeigen und folgen.                               |                                                                                                                                                            |
-| killwait_postsetupd                               | reset and applay setup changes set by "setparam"            |                                                                                                                                                            |
-| [kinit](Cheatsheet-IGELOS-General.md#kinit) | Active Directory login                             |
-| [klist](Cheatsheet-IGELOS-General.md#klist) | Display kerberos tickets                           |
-| nmcli radio wifi off                              | Disables Wifi, On enables it                                |                                                                                                                                                            |
-| notify-send-message                               | Display GUI Text Message                                    |                                                                                                                                                            |
-| opensc-tool                                       | Lists opensc smartcard informations and tools               |                                                                                                                                                            |
-| pkcs11getloginname                                | Shows extracted smart card login name                       |                                                                                                                                                            |
-| setcryptparam                                     | Saves encrypted Data like Password to Igel Registry         |                                                                                                                                                            |
-| setusercryptparam                                 | Saves User encrypted Data like Password to Igel Registry    |                                                                                                                                                            |
-| start-wireless-manager                            | Starts the Wireless cafe menu (start as user)               |                                                                                                                                                            |
-| systemd-resolve --flush-caches                    | Flush DNS cache                                             |                                                                                                                                                            |
-| user_reboot                                       | Reboot as user                                              |                                                                                                                                                            |
-| user_shutdown                                     | Shutdown as User                                            |                                                                                                                                                            |
-| write_rmsettings                                  | Write local setup changes back to UMS.                      |                                                                                                                                                            |
-| xfce4-display-settings                            | Start the old Display Switcher as binary                    |                                                                                                                                                            |
-| xrandr                                            | Controls the Screens from command line                      |                                                                                                                                                            |
-| zenity                                            | Dialog select item                                          | `zenity --list --text "Please select a Citrix  Server" --radiolist -column "Select" --column "Server" Storefront1 "Storefront1" Storefront2 "Storefront2"` |
-| zenity                                            | Dialog with progress bar                                    | `zenity --progress --text="Trying to ping 4 times" --percentage="0" --auto-close & ping -c 4`                                                              |
-| /config/bin/firmware-update | Start firmware update |
-| custompart | Delete/Create a custom partition |
-| ums_available  | Check available UMS Server       |
-| rmregister     | Start tool to register @ UMS     |
-| rmagent_cli    | UMS Agent commandline            |
-| get_rmsettings | Get UMS config (reboot to apply) |
-| setup             | Start IGEL Setup                 |                                                               |
-| get               | Get Variable from registry       |                                                               |
-| vget              | Get specification for a variable |                                                               |
-| setparam          | Write variable to registry       | `setparam system.remotemanager.ums_structure_tag "Building1"` |
-| setcryptparam     | Write a password to the registry |                                                               |
-| list              | List a part of the registry      |                                                               |
-| delinstance       | Delete a session or instance     |                                                               |
-| newinstace        | Create a session or instance     |                                                               |
-| numinstances      | Show next available instance nr. |                                                               |
-| superclasses      | List all available superclasses  |                                                               |
-| store_usbconfig   | Write config to USB Storage      |                                                               |
-| load_usbconfig    | Load config from USB Storage     |                                                               |
-| show_usbconfig    | List configs from USB Storage    |                                                               |
-| reset_to_defaults | Factory reset                    |                                                               |
-| get_unit_id       | Get the Unit ID                  | `get_unit_id -m` reset the original Unit-ID                   |
+| command                                                 | description                                                 |
+|---------------------------------------------------------|-------------------------------------------------------------|
+| /config/bin/firmware-update                             | Start firmware update                                       |
+| apparmor_status                                         | Lists all services protected by apparmor                    |
+| applauncher                                             | Starts the application launcher                             |
+| [curl](Cheatsheet-IGELOS-General.md#curl)               | Command line tool to check for trusted certificate          |
+| custompart                                              | Delete/Create a custom partition                            |
+| delinstance                                             | Delete a session or instance                                |
+| df -h                                                   | Shows Partition usage                                       |
+| florence                                                | OnScreen Keyboard                                           |
+| get                                                     | Get Variable from registry                                  |
+| get_rmsettings                                          | Get UMS config (reboot to apply)                            |
+| [get_unit_id](Cheatsheet-IGELOS-General.md#get_unit_id) | Get the Unit ID                                             |
+| [getmyip](Cheatsheet-IGELOS-General.md#getmyip)         | show device IP                                              |
+| gpicview                                                | Starts an Picture Viewer                                    |
+| icaconncenter                                           | ICA Connection Center                                       |
+| [icg-config](Cheatsheet-IGELOS-General.md#getmyip)      | IGEL Cloud Gateway config; with url and mass deployment key |
+| icg-setup                                               | Start the ICG GUI Setup or with parameters the CLI          |
+| igel_buddy_update_server_scan                           | Search for Buddy Masters in network                         |
+| igel_display_switcher                                   | Start the new Display Switcher                              |
+| igel_firstboot_wizard                                   | Starts the First Boot Wizard                                |
+| igel_gamma                                              | TOCHECK Should influence the brightness                     |
+| journalctl -f                                           | Sys logs anzeigen und folgen.                               |
+| killwait_postsetupd                                     | reset and applay setup changes set by "setparam"            |
+| [kinit](Cheatsheet-IGELOS-General.md#kinit)             | Active Directory login                                      |
+| [klist](Cheatsheet-IGELOS-General.md#klist)             | Display kerberos tickets                                    |
+| list                                                    | List a part of the registry                                 |
+| load_usbconfig                                          | Load config from USB Storage                                |
+| newinstace                                              | Create a session or instance                                |
+| nmcli radio wifi off                                    | Disables Wifi, On enables it                                |
+| notify-send-message                                     | Display GUI Text Message                                    |
+| numinstances                                            | Show next available instance nr.                            |
+| opensc-tool                                             | Lists opensc smartcard informations and tools               |
+| pkcs11getloginname                                      | Shows extracted smart card login name                       |
+| reset_to_defaults                                       | Factory reset                                               |
+| rmagent_cli                                             | UMS Agent commandline                                       |
+| rmregister                                              | Start tool to register @ UMS                                |
+| setcryptparam                                           | Saves encrypted Data like Password to Igel Registry         |
+| setcryptparam                                           | Write a password to the registry                            |
+| [setparam](Cheatsheet-IGELOS-General.md#setparam)       | Write variable to registry                                  |
+| setup                                                   | Start IGEL Setup                                            |
+| setusercryptparam                                       | Saves User encrypted Data like Password to Igel Registry    |
+| show_usbconfig                                          | List configs from USB Storage                               |
+| start-wireless-manager                                  | Starts the Wireless cafe menu (start as user)               |
+| store_usbconfig                                         | Write config to USB Storage                                 |
+| superclasses                                            | List all available superclasses                             |
+| systemd-resolve --flush-caches                          | Flush DNS cache                                             |
+| ums_available                                           | Check available UMS Server                                  |
+| user_reboot                                             | Reboot as user                                              |
+| user_shutdown                                           | Shutdown as User                                            |
+| vget                                                    | Get specification for a variable                            |
+| write_rmsettings                                        | Write local setup changes back to UMS.                      |
+| xfce4-display-settings                                  | Start the old Display Switcher as binary                    |
+| xrandr                                                  | Controls the Screens from command line                      |
+| [zenity](Cheatsheet-IGELOS-General.md#zenity)           | Dialog select item                                          |
 
 ## [IGELOS-Networking](Cheatsheet-IGELOS-Networking.md)
 
