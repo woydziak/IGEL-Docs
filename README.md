@@ -20,3 +20,4 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [Create USB installation medium MacOS](Docs/Create-USB-Installation-medium-MacOS.md)
 - [Using Webcams in Remote Sessions with IGEL Endpoints](Docs/HowTo-Using-Webcams-Remote-Sessions.md)
 - [Write Config Files to OSC ISO image](Docs/HowTo-Write-Config-Files-OSC-ISO.md)
+- [Remove IGEL Device License](Docs/HowTo-Remove-IGEL-Device-License.md)
