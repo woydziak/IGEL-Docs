@@ -22,8 +22,8 @@ Removing a license from the IGEL license portal, and UMS does not remove it from
 - Identify the Unit ID or MAC Address of the device you wish to remove
 -	In your browser navigate to https://activation.igel.com and log in with your account
 - Click Search Hardware in left navigation bar and enter the MAC or Unit ID
-o	This will bring up a list of license packs the device is associated with
-	**Hint:** you can copy this from UMS by highlighting the number, and pressing Ctrl+C
+  - This will bring up a list of license packs the device is associated with
+  - **Hint:** you can copy this from UMS by highlighting the number, and pressing Ctrl+C
 -	Double-click the license pack you want to remove the device from
 -	On the manage license page, click the Remove Hardware button
 -	Finally, check the box next to the Unit ID of the device, agree that you have read the T&C and click OK
