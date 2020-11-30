@@ -45,7 +45,7 @@ umount /tmp/igel
 ## Create bootable USB of OSC ISO  
 
 ```{dd}
-dd if=osc<version.iso of=<USB device> bs=4M status=progress  
+dd if=osc<version>.iso of=<USB device> bs=4M status=progress  
    ```
 
 -----  
