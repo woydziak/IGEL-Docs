@@ -39,7 +39,7 @@ cp files /tmp/IGEL/wfs_template
 ## Unmount file system  
 
 ```{umount}
-umount /tmp/igel
+umount /tmp/IGEL
    ```
 
 ## Create bootable USB of OSC ISO  
