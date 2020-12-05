@@ -1,4 +1,4 @@
-# IGELOS General
+# Cheatsheet IGELOS General
 
 ## kinit
 

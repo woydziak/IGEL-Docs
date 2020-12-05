@@ -1,4 +1,4 @@
-# IGELOS Networking
+# Cheatsheet IGELOS Networking
 
 ## ping
 

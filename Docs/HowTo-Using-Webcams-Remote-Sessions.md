@@ -1,4 +1,4 @@
-# How To - Using Webcams in Remote Sessions with IGEL Endpoints
+# HOWTO Using Webcams in Remote Sessions with IGEL Endpoints
 
 ## Enable Webcam in the virtual session (Windows 10)
 

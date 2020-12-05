@@ -1,4 +1,4 @@
-# How To - Remove IGEL Device License
+# HOWTO Remove IGEL Device License
 
 -----
 ## Summary of steps to remove IGEL device License

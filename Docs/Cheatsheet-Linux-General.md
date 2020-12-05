@@ -1,4 +1,4 @@
-# Linux General
+# Cheatsheet Linux General
 
 ## echo
 

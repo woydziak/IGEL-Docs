@@ -1,4 +1,4 @@
-# Re-enable TLSv1 and TLSv1.1 on UMS
+# HOWTO Re-enable TLSv1 and TLSv1.1 on UMS
 
 
 ## Situation

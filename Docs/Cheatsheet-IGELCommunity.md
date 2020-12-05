@@ -1,6 +1,6 @@
-# IGEL-Community Cheatsheet
+# Cheatsheet IGELCommunity
 
-## [Linux-General](Cheatsheet-Linux-General.md)
+## [Linux General](Cheatsheet-Linux-General.md)
 
 | command                                                    | description                                |
 |------------------------------------------------------------|--------------------------------------------|
@@ -39,7 +39,7 @@
 | [watch](Cheatsheet-Linux-General.md#watch)                 | repeat periodic a command                  |
 | [which](Cheatsheet-Linux-General.md#which)                 | locate command                             |
 
-## [IGELOS-General](Cheatsheet-IGELOS-General.md)
+## [IGELOS General](Cheatsheet-IGELOS-General.md)
 
 | command                                                 | description                                                 |
 |---------------------------------------------------------|-------------------------------------------------------------|
@@ -97,7 +97,7 @@
 | xrandr                                                  | Controls the Screens from command line                      |
 | [zenity](Cheatsheet-IGELOS-General.md#zenity)           | Dialog select item                                          |
 
-## [IGELOS-Networking](Cheatsheet-IGELOS-Networking.md)
+## [IGELOS Networking](Cheatsheet-IGELOS-Networking.md)
 
 | command                                                                                | description                                                                                             |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@
 | [iwevent](Cheatsheet-IGELOS-Networking.md#iwevent)                                     | display wireless events                                                                                 |
 | [iwspy](Cheatsheet-IGELOS-Networking.md#iwspy)                                         | get wireless statistics from specific nodes                                                             |
 
-## [IGELOS-Hardware](Cheatsheet-IGELOS-Hardware.md)
+## [IGELOS Hardware](Cheatsheet-IGELOS-Hardware.md)
 
 | command                                              | description                         |
 |------------------------------------------------------|-------------------------------------|
@@ -142,7 +142,7 @@
 | opensc-explorer                                      | Show available  Smart Cardeaders    |
 | opensc-tool                                          | Commandline  Smart Card Tool        |
 
-## IGELOS-Folders
+## IGELOS Folders
 
 | folder                    | description                      |
 |---------------------------|----------------------------------|
@@ -154,7 +154,7 @@
 | /var/logs                 | Various log files                |
 | /wfs                      | Configurations / Certs           |
 
-## IGELOS-Files
+## IGELOS Files
 
 | file                  | description                              |
 |-----------------------|------------------------------------------|
@@ -165,7 +165,7 @@
 | /wfs/server.crt       | UMS Server certificate                   |
 | /wfs/setup.ini        | Local configuration                      |
 
-## IGELOS-Keybindings
+## IGELOS Keybindings
 
 | keybinding   | description            |
 |--------------|------------------------|
@@ -176,7 +176,7 @@
 | CTRL+ALT+F12 | terminal 2             |
 | CTRL+ALT+F1  | IGELOS UI              |
 
-## IGELOS-Registry
+## IGELOS Registry
 
 | Path                                             | description |
 |--------------------------------------------------|-------------|

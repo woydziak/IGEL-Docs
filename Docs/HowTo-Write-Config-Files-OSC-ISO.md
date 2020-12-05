@@ -1,4 +1,4 @@
-# How To - Write config files to IGEL OSC ISO file from Linux
+# HOWTO Write config files to IGEL OSC ISO file from Linux
 
 ## Determine mount point in ISO image
 

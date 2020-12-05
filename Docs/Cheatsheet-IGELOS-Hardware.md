@@ -1,4 +1,4 @@
-# IGELOS Hardware
+# Cheatsheet IGELOS Hardware
 
 ## dmidecode
 

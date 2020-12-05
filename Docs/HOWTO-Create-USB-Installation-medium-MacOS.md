@@ -1,4 +1,4 @@
-# Create USB installation medium (MacOS)
+# HOWTO RCreate USB installation medium (MacOS)
 
 ## IGEL - Apple Mac - Create USB Boot Image
 

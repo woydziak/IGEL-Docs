@@ -5,19 +5,20 @@ The provided documentation is without any warranty or support by IGEL Technology
 
 ## CheatSheets
 
-- [IGEL-Community-Cheatsheet](Docs/IGEL-Community-Cheatsheet.md)
+- [Cheatsheet-IGELCommunity](Docs/Cheatsheet-IGELCommunity.md)
 
 ### Detailed
 
-- [Linux-General](Docs/Cheatsheet-Linux-General.md)
-- [IGELOS-General](Docs/Cheatsheet-IGELOS-General.md)
-- [IGELOS-Hardware](Docs/Cheatsheet-IGELOS-Hardware.md)
-- [IGELOS-Networking](Docs/Cheatsheet-IGELOS-Networking.md)
+- [Cheatsheet-IGELOS-General](Docs/Cheatsheet-IGELOS-General.md)
+- [Cheatsheet-IGELOS-Hardware](Docs/Cheatsheet-IGELOS-Hardware.md)
+- [Cheatsheet-IGELOS-Networking](Docs/Cheatsheet-IGELOS-Networking.md)
+- [Cheatsheet-Linux-General](Docs/Cheatsheet-Linux-General.md)
 
-## Howto's
+## HOWTOs
 
-- [Re-enable TLSv1 and TLSv1.1 on UMS](Docs/Re-enable_TLSv1_and_TLSv11_on_UMS.md)
-- [Create USB installation medium MacOS](Docs/Create-USB-Installation-medium-MacOS.md)
-- [Using Webcams in Remote Sessions with IGEL Endpoints](Docs/HowTo-Using-Webcams-Remote-Sessions.md)
-- [Write Config Files to OSC ISO image](Docs/HowTo-Write-Config-Files-OSC-ISO.md)
-- [Remove IGEL Device License](Docs/HowTo-Remove-IGEL-Device-License.md)
+- [HOWTO Create USB installation medium MacOS](Docs/HOWTO-Create-USB-Installation-medium-MacOS.md)
+- [HOWTO Re-enable TLSv1 and TLSv1.1 on UMS](Docs/HOWTO-Re-enable_TLSv1_and_TLSv11_on_UMS.md)
+- [HOWTO Remove IGEL Device License](Docs/HOWTO-Remove-IGEL-Device-License.md)
+- [HOWTO Remove IGEL Device License](Docs/HOWTO-Remove-IGEL-Device-License.md)
+- [HOWTO Using Webcams Remote Sessions](Docs/HOWTO-Using-Webcams-Remote-Sessions.md)
+- [HOWTO Write Config Files to OSC ISO image](Docs/HOWTO-Write-Config-Files-OSC-ISO.md)
