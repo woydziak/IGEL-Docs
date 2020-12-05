@@ -19,6 +19,7 @@ Display kerberos tickets
 ```bash
 
 ```
+
 ```bash
 
 ```
@@ -110,10 +111,9 @@ IGEL Cloud Gateway config; with url and mass deployment key
 **:**
 
 ```bash
-icg-config -s cloud-gateway.info -o 1234 
+icg-config -s cloud-gateway.info -o 1234
 ```
 
 ```bash
 
 ```
-

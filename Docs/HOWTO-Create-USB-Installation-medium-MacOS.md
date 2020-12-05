@@ -6,11 +6,11 @@
 
 1) Install USB drive
 2) Open Terminal
-3) Find device mount point: ```$ diskutil list```
-4) Unmount USB drive: ```$ diskutil unmountdisk /dev/DISK-ID```
-5) Copy ISO image to USB drive: ```$ sudo dd if=ISO-File of=/dev/rDISK-ID bs=1m```
+3) Find device mount point: `$ diskutil list`
+4) Unmount USB drive: `$ diskutil unmountdisk /dev/DISK-ID`
+5) Copy ISO image to USB drive: `$ sudo dd if=ISO-File of=/dev/rDISK-ID bs=1m`
 
-```{MacOS}
+```bash
 % diskutil list
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -35,12 +35,12 @@
    2:                  Apple_HFS                         2.5 MB     disk2s2
    ```
 
-```
+```bash
 % diskutil unmountdisk /dev/disk2
 Unmount of all volumes on disk2 was successful
-   ```
+```
 
-   ```
+```bash
 % ls
 DiscUtils.dll
 IGEL OS Creator Manual-v1-20200401_200841.pdf
@@ -52,13 +52,13 @@ licenses_osc.zip
 osc11.04.100.iso
 preparestick.exe
 readme11.04.100.txt
-   ```
-
 ```
+
+```bash
 % sudo dd if=osc11.04.100.iso of=/dev/rdisk2 bs=1m
 Password:
 
 2502+1 records in
 2502+1 records out
 2623733760 bytes transferred in 94.942156 secs (27635077 bytes/sec)
-   ```
+```
