@@ -5,14 +5,14 @@ The provided documentation is without any warranty or support by IGEL Technology
 
 ## CheatSheets
 
-- [Cheatsheet-IGELCommunity](Docs/Cheatsheet-IGELCommunity.md)
+- [Cheatsheet IGELCommunity](Docs/Cheatsheet-IGELCommunity.md)
 
 ### Detailed
 
-- [Cheatsheet-IGELOS-General](Docs/Cheatsheet-IGELOS-General.md)
-- [Cheatsheet-IGELOS-Hardware](Docs/Cheatsheet-IGELOS-Hardware.md)
-- [Cheatsheet-IGELOS-Networking](Docs/Cheatsheet-IGELOS-Networking.md)
-- [Cheatsheet-Linux-General](Docs/Cheatsheet-Linux-General.md)
+- [Cheatsheet IGELOS General](Docs/Cheatsheet-IGELOS-General.md)
+- [Cheatsheet IGELOS Hardware](Docs/Cheatsheet-IGELOS-Hardware.md)
+- [Cheatsheet IGELOS Networking](Docs/Cheatsheet-IGELOS-Networking.md)
+- [Cheatsheet Linux General](Docs/Cheatsheet-Linux-General.md)
 
 ## HOWTOs
 
