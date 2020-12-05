@@ -1,8 +1,8 @@
-# HOWTO RCreate USB installation medium (MacOS)
+# HOWTO Create USB installation medium (MacOS)
 
 ## IGEL - Apple Mac - Create USB Boot Image
 
-### Steps:
+### Steps
 
 1) Install USB drive
 2) Open Terminal
