@@ -43,15 +43,15 @@
 
 | command                                                 | description                                                 |
 |---------------------------------------------------------|-------------------------------------------------------------|
-| /config/bin/firmware-update                             | Start firmware update                                       |
-| apparmor_status                                         | Lists all services protected by apparmor                    |
+| /config/bin/firmware-update                                       | Start firmware update                                       |
+| [apparmor_status](Cheatsheet-IGELOS-General.md#apparmor_status)                                       | Lists all services protected by apparmor                    |
 | applauncher                                             | Starts the application launcher                             |
-| [curl](Cheatsheet-IGELOS-General.md#curl)               | Command line tool to check for trusted certificate          |
+| [curl](Cheatsheet-IGELOS-General.md#curl)               | Check for trusted certificate or download files         |
 | custompart                                              | Delete/Create a custom partition                            |
 | delinstance                                             | Delete a session or instance                                |
 | df -h                                                   | Shows Partition usage                                       |
 | florence                                                | OnScreen Keyboard                                           |
-| get                                                     | Get Variable from registry                                  |
+| [get](Cheatsheet-IGELOS-General.md#get)                 | Get Variable from registry                                  |
 | get_rmsettings                                          | Get UMS config (reboot to apply)                            |
 | [get_unit_id](Cheatsheet-IGELOS-General.md#get_unit_id) | Get the Unit ID                                             |
 | [getmyip](Cheatsheet-IGELOS-General.md#getmyip)         | show device IP                                              |
@@ -95,8 +95,6 @@
 | write_rmsettings                                        | Write local setup changes back to UMS.                      |
 | xfce4-display-settings                                  | Start the old Display Switcher as binary                    |
 | xrandr                                                  | Controls the Screens from command line                      |
-| [zenity](Cheatsheet-IGELOS-General.md#zenity)           | Dialog select item                                          |
-
 ## [IGELOS Networking](Cheatsheet-IGELOS-Networking.md)
 
 | command                                                                                | description                                                                                             |
