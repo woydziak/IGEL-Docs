@@ -1,5 +1,31 @@
 # Cheatsheet IGELOS General
 
+## apparmor_status
+
+Lists all services protected by apparmor
+
+```bash
+apparmor_status
+```
+
+```bash
+apparmor module is loaded.
+18 profiles are loaded.
+18 profiles are in enforce mode.
+   /sbin/dhclient
+...
+   /{dev/.mnt-system/ro/,dev/.mnt-system/ro/sys/,}usr/sbin/tcpdump
+0 profiles are in complain mode.
+8 processes have profiles defined.
+7 processes are in enforce mode.
+   /sbin/dhclient (12496)
+...
+   /{dev/.mnt-system/ro/,dev/.mnt-system/ro/sys/,dev/.mnt-system/rw/,dev/.mnt-system/rw/sys/,}services/fbrw/firefox/{,*[^s][^h]} (14061)
+0 processes are in complain mode.
+1 processes are unconfined but have a profile defined.
+   /usr/sbin/haveged (366)
+```
+
 ## kinit
 
 Active Directory login
@@ -28,57 +54,51 @@ Display kerberos tickets
 
 show device IP
 
-**:**
-
 ```bash
-cut -d. -f1-4
+getmyip && echo
 ```
 
 ```bash
-
+192.168.1.2
 ```
 
-## zenity
+## get
 
-dialogue
+Read variable from registry
 
-**Dialog select item:**
-
-```bash
-zenity --list --text "Please select a Citrix  Server" --radiolist -column "Select" --column "Server" Storefront1 "Storefront1" Storefront2 "Storefront2"
-```
+**Read variable system.remotemanager.ums_structure_tag:**
 
 ```bash
-
-```
-
-**Dialog with progress bar:**
-
-```bash
-zenity --progress --text="Trying to ping 4 times" --percentage="0" --auto-close & ping -c 4
+get system.remotemanager.ums_structure_tag
 ```
 
 ```bash
-
+Building1
 ```
 
 ## setparam
 
 Write variable to registry
 
-**:**
+**Write variable system.remotemanager.ums_structure_tag with Value Building1:**
 
 ```bash
 setparam system.remotemanager.ums_structure_tag "Building1"
 ```
 
-```bash
-
-```
-
 ## get_unit_id
 
 Get the Unit ID
+
+**get the Unit-ID:**
+
+```bash
+get_unit_id && echo
+```
+
+```bash
+85641000F615234423
+```
 
 **reset the original Unit-ID:**
 
@@ -87,31 +107,39 @@ get_unit_id -m
 ```
 
 ```bash
+Manually set new Unit ID
 
+    0 abort setting Unit ID
+    1 UD Pocket Unit ID 85641000F615234423
+    2 eth0: Unit ID 002326FC34DE, connected via PCI, wired, has no license
+    3 wlan0: Unit ID 002314200E4, connected via PCI, wireless, has no license
+
+Choose number to abort or set new Unit ID:
 ```
 
 ## curl
 
-Command line tool to check for trusted certificate
+Check for trusted certificate or download files
 
-**:**
+**Download script from Github and save it:**
 
 ```bash
-curl https://fqdn.of.website
+curl -O https://raw.githubusercontent.com/IGEL-Community/IGEL-Custom-Partitions/master/CP_Source
+/Unified_Communications/Zoom/build-zoom-cp.sh
 ```
 
 ```bash
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   982  100   982    0     0   3494      0 --:--:-- --:--:-- --:--:--  3494
 ```
 
 ## icg-config
 
 IGEL Cloud Gateway config; with url and mass deployment key
 
-**:**
-
 ```bash
-icg-config -s cloud-gateway.info -o 1234
+
 ```
 
 ```bash
