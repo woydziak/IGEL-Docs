@@ -1,4 +1,4 @@
-# IGELOS Networking
+# Cheatsheet IGELOS Networking
 
 ## ping
 
@@ -60,6 +60,7 @@ start the FTP client
 ```bash
 ftp igelrmserver
 ```
+
 ```bash
 Connected to igelrmserver.acme.org.
 220 IGEL FW + Snapshot
@@ -83,14 +84,14 @@ netstat -anet
 
 ```bash
 Active Internet connections (servers and established)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       User       Inode      
-tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      0          13287      
-tcp        0      0 0.0.0.0:30005           0.0.0.0:*               LISTEN      0          86724      
-tcp        0      0 127.0.0.1:30006         0.0.0.0:*               LISTEN      0          86719      
-tcp        0      0 127.0.0.1:7000          0.0.0.0:*               LISTEN      0          14126      
-tcp        0      0 127.0.0.1:7001          0.0.0.0:*               LISTEN      0          14127      
-tcp6       0      0 :::111                  :::*                    LISTEN      0          13289      
-tcp6       0      0 :::22                   :::*                    LISTEN      0          33044 
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       User       Inode
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      0          13287
+tcp        0      0 0.0.0.0:30005           0.0.0.0:*               LISTEN      0          86724
+tcp        0      0 127.0.0.1:30006         0.0.0.0:*               LISTEN      0          86719
+tcp        0      0 127.0.0.1:7000          0.0.0.0:*               LISTEN      0          14126
+tcp        0      0 127.0.0.1:7001          0.0.0.0:*               LISTEN      0          14127
+tcp6       0      0 :::111                  :::*                    LISTEN      0          13289
+tcp6       0      0 :::22                   :::*                    LISTEN      0          33044
 ```
 
 ## hostname
@@ -164,7 +165,7 @@ nmcli device wifi list
 *  SSID             MODUS  CHAN  RATE       SIGNAL  BARS  SICHERHEIT
    WLAN123....      Infra  48    54 Mbit/s  90      ▂▄▆█  WPA2 802.1X
    Voice WLAN       Infra  48    54 Mbit/s  90      ▂▄▆█  WPA2
-	 ...
+   ...
    WLAN123....      Infra  116   54 Mbit/s  22      ▂___  WPA2 802.1X
    Guest WLAN       Infra  116   54 Mbit/s  19      ▂___  WPA2
 ```
@@ -192,13 +193,13 @@ show/manage ethernet configuration
 ifconfig
 ```
 
-```
+```bash
 eth0      Link encap:Ethernet  HWaddr 00:11:22:33:44:55  
           inet addr:10.10.10.13  Bcast:10.10.10.255  Mask:255.255.255.0
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
           RX packets:757 errors:0 dropped:0 overruns:0 frame:0
           TX packets:3253 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000 
+          collisions:0 txqueuelen:1000
           RX bytes:119758 (119.7 KB)  TX bytes:4251876 (4.2 MB)
 
 lo        Link encap:Local Loopback  
@@ -207,14 +208,13 @@ lo        Link encap:Local Loopback
           UP LOOPBACK RUNNING  MTU:65536  Metric:1
           RX packets:53224 errors:0 dropped:0 overruns:0 frame:0
           TX packets:53224 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000 
+          collisions:0 txqueuelen:1000
           RX bytes:15835535 (15.8 MB)  TX bytes:15835535 (15.8 MB)
 ```
 
 ## ethtool
 
 tool for ethernet configuration
-
 
 **display standard information about eth0:**
 
@@ -224,29 +224,29 @@ ethtool eth0
 
 ```bash
 Settings for eth0:
-	Supported ports: [ TP ]
-	Supported link modes:   10baseT/Half 10baseT/Full 
-	                        100baseT/Half 100baseT/Full 
-	                        1000baseT/Full 
-	Supported pause frame use: No
-	Supports auto-negotiation: Yes
-	Advertised link modes:  10baseT/Half 10baseT/Full 
-	                        100baseT/Half 100baseT/Full 
-	                        1000baseT/Full 
-	Advertised pause frame use: No
-	Advertised auto-negotiation: Yes
-	Speed: 1000Mb/s
-	Duplex: Full
-	Port: Twisted Pair
-	PHYAD: 0
-	Transceiver: internal
-	Auto-negotiation: on
-	MDI-X: off (auto)
-	Supports Wake-on: umbg
-	Wake-on: d
-	Current message level: 0x00000007 (7)
-			       drv probe link
-	Link detected: yes
+  Supported ports: [ TP ]
+  Supported link modes:   10baseT/Half 10baseT/Full
+                          100baseT/Half 100baseT/Full
+                          1000baseT/Full
+  Supported pause frame use: No
+  Supports auto-negotiation: Yes
+  Advertised link modes:  10baseT/Half 10baseT/Full
+                          100baseT/Half 100baseT/Full
+                          1000baseT/Full
+  Advertised pause frame use: No
+  Advertised auto-negotiation: Yes
+  Speed: 1000Mb/s
+  Duplex: Full
+  Port: Twisted Pair
+  PHYAD: 0
+  Transceiver: internal
+  Auto-negotiation: on
+  MDI-X: off (auto)
+  Supports Wake-on: umbg
+  Wake-on: d
+  Current message level: 0x00000007 (7)
+           drv probe link
+  Link detected: yes
 ```
 
 **show mac address eth0:**
@@ -333,7 +333,7 @@ wlan0     Access Point/Cell: C4:21:5A:85:19:72
 
 ## iwlist
 
-display some additional information from a wireless network interface that is not displayed by iwconfig 
+display some additional information from a wireless network interface that is not displayed by iwconfig
 
 **Give the list of Access Points and Ad-Hoc cells in range:**
 

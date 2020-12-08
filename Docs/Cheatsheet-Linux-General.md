@@ -1,4 +1,4 @@
-# Linux General
+# Cheatsheet Linux General
 
 ## echo
 
@@ -391,6 +391,7 @@ list all the linux commands (including bash shell aliases and functions)
 ```bash
 compgen -c | egrep "igel|_rm" | sort | more
 ```
+
 ```bash
 get_rmdirlist
 get_rmsettings
