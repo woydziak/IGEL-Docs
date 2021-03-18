@@ -59,13 +59,13 @@ Now that we have removed the license from the license portal, and UMS, we can mo
 mount -o remount,rw /license
 find . | grep -iRl ".*lic" /license/dsa/licenses/ | xargs -I {} rm -rf {}
 mount -o remount,ro /license
-shutdown -r
+reboot
 ```
 
 ### Remove Workspace edition licenses
 
 ```bash
-mount -o remount,rw /license`
+mount -o remount,rw /license
 find /license/dsa/licenses/ | xargs grep -l "Enterprise Management Pack" | awk '{print "rm "$1}' > /tmp/removelic.sh
 chmod +x /tmp/removelic.sh
 /tmp/removelic.sh
