@@ -31,7 +31,7 @@ lspci > lspci_output.txt
 dmesg > dmesg_output.txt
 alsa-info --no-upload --output alsa-infor_output.txt
 rfkill list all > rfkill_list_all.txt
-journalctl > journalctl.txt
+journalctl > journalctl_output.txt
 cp /var/log/Xorg.0.log Xorg.0.log
 cp /etc/os-release etc-os-release.txt
 
