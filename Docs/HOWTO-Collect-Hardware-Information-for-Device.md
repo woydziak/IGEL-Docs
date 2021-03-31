@@ -70,3 +70,12 @@ login as "user" or "root": root
 ## Safely remove USB thumb drive (Start > System > Safely Remove Hardware)
 
 ![image01](Images/HOWTO-Collect-Hardware-Information-for-Device-02.png)
+
+
+-----
+
+## Tips for prepping PC for IGEL OS install
+
+- Make sure BIOS is at latest version. Check [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/lvfs/docs/users). Until IGEL OS supports LVFS, BIOS can be updated from Ubuntu 18.04. If the PC is not in LVFS, check for latest BIOS from vendor web site.
+- Make sure BIOS is set back to default settings.
+- Check for and apply BIOS settings for Ubuntu 18.04.
