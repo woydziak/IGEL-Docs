@@ -69,7 +69,7 @@ login as "user" or "root": root
 
 ## Safely remove USB thumb drive (Start > System > Safely Remove Hardware)
 
-![image01](Images/HOWTO-Collect-Hardware-Information-for-Device-02.png)
+![image02](Images/HOWTO-Collect-Hardware-Information-for-Device-02.png)
 
 
 -----
@@ -79,3 +79,21 @@ login as "user" or "root": root
 - Make sure BIOS is at latest version. Check [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/lvfs/docs/users). Until IGEL OS supports LVFS, BIOS can be updated from Ubuntu 18.04. If the PC is not in LVFS, check for latest BIOS from vendor web site.
 - Make sure BIOS is set back to default settings.
 - Check for and apply BIOS settings for Ubuntu 18.04.
+
+-----
+
+## Video driver and booting (blacklist framebuffer driver)
+
+Framebuffer drivers are generally buggy and poorly-supported, and cause suspend failures, kernel panics and general mayhem.  For this reason we never load them automatically.
+
+If PC firmware has a Legacy Boot option, it might interfere with the kernel’s ability to use the framebuffer during boot.
+
+The kernel may hang on framebuffer driver. As first step in debugging, blacklist the framebuffer driver in file /etc/modprobe.d/blacklist-framebuffer.conf
+
+ For example, add the following entry to the System/Firmware Customization/Custom Commands/Base Initialization section of IGEL Setup:
+
+echo “blacklist efifb” >> /etc/modprobe.d/blacklist-framebuffer.conf
+
+Save the change and reboot without the “Force VESA driver” option being set.
+
+![image03](Images/HOWTO-Collect-Hardware-Information-for-Device-03.jpg)
