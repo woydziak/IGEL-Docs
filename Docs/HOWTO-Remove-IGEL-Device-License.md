@@ -7,6 +7,7 @@
 - Remove the License from the IGEL License Portal
 - Remove the Device License from UMS
 - Remove the License Pack from the IGEL Device
+- Reset IGEL Device to Factory Defaults
 
 -----
 
@@ -85,3 +86,14 @@ reboot
 ```
 
 -----
+
+## Reset IGEL Device to Factory Defaults
+
+To reset IGEL device to factory defaults.
+
+- Make sure you are logged in as the root account
+- Run the following command to reset device to factory defaults
+
+```bash
+/bin/reset_to_defaults
+```
