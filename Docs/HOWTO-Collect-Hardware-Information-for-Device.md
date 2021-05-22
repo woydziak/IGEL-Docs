@@ -97,3 +97,37 @@ echo “blacklist efifb” >> /etc/modprobe.d/blacklist-framebuffer.conf
 Save the change and reboot without the “Force VESA driver” option being set.
 
 ![image03](Images/HOWTO-Collect-Hardware-Information-for-Device-03.jpg)
+
+-----
+
+## Access terminal console or terminal log screen
+
+- Access to terminal console: \<Ctl>\<Alt>\<F12>
+- Switch back to GUI: \<Ctl>\<Alt>\<F1>
+- Access terminal log screen: \<Ctl>\<Alt>\<F10>
+
+-----
+
+## Steps to update firmware from USB drive
+
+- [Download OS11 -> Firmware Updates -> lxos_[VERSION]_public.zip](https://www.igel.com/software-downloads/workspace-edition/)
+- Format USB Drive on PC (FAT)
+- Unzip lxos_[VERSION]_public.zip to USB drive
+- Configure IGEL OS to take new firmware from USB drive
+- Run update
+
+```
+1. Configure at least one hotplug USB device:
+   setparam devices.hotplug.usb-storage.numdevices 1
+2. Apply your changes:
+   kill_postsetupd
+3. Connect the USB storage device to the device.
+4. Wait for the USB storage device to be mounted automatically.
+5. Determine the mount point:
+   ls /media/
+6. Configure the update parameters:
+   setparam update.protocol file
+   setparam update.file.path /media/<name of USB storage device>
+7. Start the update process in the / directory using the command update
+   update
+   ```
