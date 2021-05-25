@@ -34,6 +34,7 @@ rfkill list all > rfkill_list_all.txt
 journalctl > journalctl_output.txt
 cp /var/log/Xorg.0.log Xorg.0.log
 cp /etc/os-release etc-os-release.txt
+cp /wfs/group.ini wfs-group.ini
 
 cd ..
 
