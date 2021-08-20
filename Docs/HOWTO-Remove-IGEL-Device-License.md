@@ -9,6 +9,8 @@
 - Remove the License Pack from the IGEL Device
 - Reset IGEL Device to Factory Defaults
 
+**Note:** [IGEL Knowledge Base: Removing an IGEL License Completely](https://kb.igel.com/licensesmore-igelos11/en/removing-an-igel-license-completely-24391359.html)
+
 -----
 
 ## IGEL Licensing Overview
