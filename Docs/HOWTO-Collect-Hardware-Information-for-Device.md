@@ -133,3 +133,42 @@ Save the change and reboot without the “Force VESA driver” option being set.
 7. Start the update process in the / directory using the command update
    update
    ```
+
+-----
+
+## Updating to IGEL OS - Current Version
+
+Configure Firmware Update settings with the following parameters and then select "Update firmware":
+
+| Parameter | Setting | Comment |
+|-----------|---------|---------|
+| Protocol | https | |
+| Server name | fw.igelize.me | North America |
+| Server name | fwemea.igelize.me | Western Europe |
+| Port | 443 | |
+| Server path | igelos/current | |
+
+![image04](Images/HOWTO-Collect-Hardware-Information-for-Device-04.png)
+
+Sample script:
+
+ ```
+#!/bin/bash
+
+# Updating to IGEL OS - Current Version
+
+# Configure the update server
+setparam update.protocol https
+
+# North America
+setparam update.https.server fw.igelize.me
+
+# Western Europe
+#setparam update.https.server fwemea.igelize.me
+
+setparam update.https.port 443
+setparam update.https.path igelos/current
+
+#Start the update process
+update
+   ```
