@@ -134,6 +134,20 @@ Save the change and reboot without the “Force VESA driver” option being set.
    update
    ```
 
+Sample script:
+
+  ```
+#!/bin/bash
+
+setparam devices.hotplug.usb-storage.numdevices 1
+kill_postsetupd
+sleep 5
+setparam update.protocol file
+# next command only works if one device is mounted into /media
+setparam update.file.path /media/$(ls /media)
+update
+  ```
+
 -----
 
 ## Updating to IGEL OS - Current Version
