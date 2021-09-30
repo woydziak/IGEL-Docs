@@ -19,3 +19,7 @@
 ## Activate wireless interface
 
 ![image02](Images/HOWTO-Edit-Initial-Settings-OSC-02.png)
+
+## Additional details can be found on IGEL KB site
+
+[IGEL OS - IGEL OS Creator - IGEL OS Creator Manual - Installation](https://kb.igel.com/igelos-11.06/en/installation-procedure-49589374.html)
