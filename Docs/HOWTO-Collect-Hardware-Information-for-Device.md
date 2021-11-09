@@ -102,11 +102,12 @@ Save the change and reboot without the “Force VESA driver” option being set.
 
 -----
 
-## Access terminal console or terminal log screen
+## Access terminal console, terminal log screen, or setup
 
 - Access to terminal console: \<Ctl>\<Alt>\<F12>
 - Switch back to GUI: \<Ctl>\<Alt>\<F1>
 - Access terminal log screen: \<Ctl>\<Alt>\<F10>
+- Access IGEL setup: \<Ctl>\<Alt>s
 
 -----
 
