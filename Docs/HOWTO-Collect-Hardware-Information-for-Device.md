@@ -186,3 +186,17 @@ setparam update.https.path igelos/current
 #Start the update process
 update
    ```
+
+### North America fw.igelize.me server layout
+
+The layout path structure:
+
+igelos/amd64
+igelos/arm64
+igelos/current
+
+Under the igelos/amd64 and igelos/arm64 paths, the subpaths for the various versions of IGEL OS public and private.  For example:
+
+igelos/amd64/11.06.100
+igelos/amd64/11.06.102
+igelos/arm64/11.01.120
