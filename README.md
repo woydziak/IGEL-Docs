@@ -23,3 +23,4 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [HOWTO Using Webcams Remote Sessions](Docs/HOWTO-Using-Webcams-Remote-Sessions.md)
 - [HOWTO Write Config Files to OSC ISO image](Docs/HOWTO-Write-Config-Files-OSC-ISO.md)
 - [HOWTO Edit Initial Settings Prior to OSC Install](Docs/HOWTO-Edit-Initial-Settings-OSC.md)
+- [HOWTO Collect Imprivata Log Files](Docs/HOWTO-Collect-Imprivata-Log-Files.md)
