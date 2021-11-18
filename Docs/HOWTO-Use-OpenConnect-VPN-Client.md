@@ -9,7 +9,7 @@ OpenConnect is a cross-platform multi-protocol SSL VPN client which supports a n
 - Cisco AnyConnect (--protocol=anyconnect)
 - Array Networks AG SSL VPN (--protocol=array)
 - Juniper SSL VPN (--protocol=nc)
-- Pulse Connect Secure (--protocol=pulse
+- Pulse Connect Secure (--protocol=pulse)
 - Palo Alto Networks GlobalProtect SSL VPN (--protocol=gp)
 - F5 Big-IP SSL VPN (--protocol=f5)
 - Fortinet Fortigate SSL VPN (--protocol=fortinet)
