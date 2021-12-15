@@ -5,6 +5,33 @@
 ## Product: TECRA A40-J (PMM10U) || Version: PMM10U-00101U
 
 ### Tested with [IGEL OS 11.06.210](https://www.igel.com/software-downloads/workspace-edition/)
+
+-----
+
+|  Type        | Description           |
+|--------------|-----------------------|
+| IGEL Type | Laptop |
+| Use Case  | Cloud access, 4K Video Playback, Demanding Workloads |
+| Chipset | 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz |
+| CPU Cores | 4 |
+| RAM | 8GB |
+| Flash Storage | 256GB |
+| Graphics - Chipset | Intel Iris Xe Graphics |
+| Graphics - Ports | 1 x USB-C, 1 x HDMI |
+| Graphics - Max Resolution | 14" HD (1366 x 768) or FHD (1920 x 1080), HDMI 4096 x 2304 @ 60Hz |
+| Ethernet | 10/100/1000 Ethernet (RJ-45) |
+| Wireless | Intel 802.11ax with Bluetooth 5.0 (AX201 family). Optional 3G/4G LTE Sierra EM7455 |
+| Interfaces - USB Type C | 1 |
+| Interfaces - USB | 2, 1 port 3G/4G LTE model |
+| Interfaces - Serial | 0 |
+| Interfaces - Audio | 3.5mm TRRS |
+| Interfaces - Security Lock | Yes |
+| Interfaces - Smartcard | Available (not tested on IGEL) |
+| Fanless | No |
+| Warranty | 1 Year |
+| Vendor Link US | [Dynabook Tecra A40G - US](https://us.dynabook.com/computers-tablets/laptops/tecra/A40) |
+| Vendor Link Europe | [Dynabook Tecra A40G - Europe](https://emea.dynabook.com/laptops/tecra/tecra-a40/) |
+
 -----
 
 #### BIOS settings:
