@@ -21,8 +21,8 @@
 | Graphics - Max Resolution | 14" HD (1366 x 768) or FHD (1920 x 1080), HDMI 4096 x 2304 @ 60Hz |
 | Ethernet | 10/100/1000 Ethernet (RJ-45) |
 | Wireless | Intel 802.11ax with Bluetooth 5.0 (AX201 family). Optional 3G/4G LTE Sierra EM7455 |
-| Interfaces - USB Type C | 1 |
-| Interfaces - USB | 2, 1 port 3G/4G LTE model |
+| Interfaces - USB Type C | 2 |
+| Interfaces - USB 3.2 | 2, 1 port 3G/4G LTE model |
 | Interfaces - Serial | 0 |
 | Interfaces - Audio | 3.5mm TRRS |
 | Interfaces - Security Lock | Yes |
