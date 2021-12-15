@@ -35,7 +35,7 @@
 
 -----
 
-#### Set action for display lib closing:
+#### Set action for display lid closing:
 
 1. Open up IGEL Setup.
 2. Select System > Registry.
