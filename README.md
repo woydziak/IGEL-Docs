@@ -25,3 +25,4 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [HOWTO Edit Initial Settings Prior to OSC Install](Docs/HOWTO-Edit-Initial-Settings-OSC.md)
 - [HOWTO Collect Imprivata Log Files](Docs/HOWTO-Collect-Imprivata-Log-Files.md)
 - [HOWTO Use OpenConnect VPN Client](Docs/HOWTO-Use-OpenConnect-VPN-Client.md)
+- [HOWTO Dynabook Setup](Docs/HOWTO-Dynabook-Setup.md)
