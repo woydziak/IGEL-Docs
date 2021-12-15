@@ -47,7 +47,7 @@
 9. Save the settings and exit [F10].
 10. Connect the IGEL OSC USB stick to the device.
 11. Reboot the device.
-12. You can continue with the IGEL OS installation procedure.
+12. You can continue with the [IGEL OS installation procedure](https://kb.igel.com/igelos-11.06.210/en/installation-procedure-54082923.html).
 
 -----
 
