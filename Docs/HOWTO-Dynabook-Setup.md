@@ -6,7 +6,7 @@
 
 ### Tested with [IGEL OS 11.06.210](https://www.igel.com/software-downloads/workspace-edition/)
 
-###[Dynabook Demo Video](https://www.linkedin.com/posts/dynabookeurope_igel-igelos-vdisec-activity-6879395877476147200-XU6L)
+### Dynabook: [Demo Video](https://www.linkedin.com/posts/dynabookeurope_igel-igelos-vdisec-activity-6879395877476147200-XU6L)
 
 -----
 
