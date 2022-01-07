@@ -26,6 +26,7 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [HOWTO Collect Imprivata Log Files](Docs/HOWTO-Collect-Imprivata-Log-Files.md)
 - [HOWTO Use OpenConnect VPN Client](Docs/HOWTO-Use-OpenConnect-VPN-Client.md)
 - [HOWTO Dynabook Setup](Docs/HOWTO-Dynabook-Setup.md)
+- [HOWTO Nutanix Frame Setup](Docs/HOWTO-Nutanix-Frame-Setup.md)
 
 ## Release Notes
 
