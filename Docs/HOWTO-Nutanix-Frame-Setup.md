@@ -6,7 +6,7 @@
 
 https://www.nutanix.com/partners/technology-alliances/igel
 
-## Nutnix Frame is IGEL Ready
+## Nutanix Frame is IGEL Ready
 
 https://www.igel.com/ready/showcase-partners/nutanix-frame/
 
