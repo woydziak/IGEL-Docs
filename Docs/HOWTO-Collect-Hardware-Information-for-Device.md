@@ -114,6 +114,14 @@ Save the change and reboot without the “Force VESA driver” option being set.
 
 -----
 
+## Extended Logging With Syslog, Tcpdump and Netlog
+
+The IGEL Linux Registry offers a number of extended logging options that can help customers, Support and PreSales debug system and network issues.
+
+https://kb.igel.com/igellinux/en/extended-logging-with-syslog-tcpdump-and-netlog-4237474.html
+
+-----
+
 ## Steps to update firmware from USB drive
 
 - [Download OS11 -> Firmware Updates -> lxos_[VERSION]_public.zip](https://www.igel.com/software-downloads/workspace-edition/)
