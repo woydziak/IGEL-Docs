@@ -25,3 +25,13 @@ IGEL Knowledge Base: [OpenConnect VPN](https://kb.igel.com/igelos-11.06/en/openc
 ## OpenConnect VPN Client Documentation
 
 [OpenConnect VPN Client](https://www.infradead.org/openconnect/index.html)
+
+-----
+
+## Other VPN Clients (IGEL Community Custom Partitions on GitHub)
+
+[Check Point SSL Network Extender (SNX)](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Network/Check_Point_SSL_Network_Extender)
+
+[OpenFortGUI](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Apps/OpenFortiGUI)
+
+[Pulse Secure VPN](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Network/Pulse_VPN)
