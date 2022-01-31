@@ -2,6 +2,30 @@
 
 -----
 
+## Having issues connecting with wireless?
+
+Try using iNet Wireless Daemon (iwd) for Wi-Fi backend.
+
+### On IGEL OS 11.05.133 or later version of 11.05
+
+Steps to enable:
+
+  - Create file, /wfs/IWD (touch /wfs/IWD)
+  - Reboot.
+
+### On 11.06.120 or later version of 11.06
+
+Steps to enable:
+
+  - Open up IGEL Setup. \<Ctl>\<Alt>s
+  - Select **System > Registry**.
+  - Select **network.interfaces.wirelesslan.wireless_backend**.
+  - Wi-Fi backend set to **<iNet Wireless Daemon (iwd)>**.
+  - Select **Ok**.
+  - Reboot the device.
+
+-----
+
 ## Home router DNS
 
 The DNS servers used for some home network may not pick up locally attached devices, such as network printers.
@@ -17,6 +41,8 @@ On the IGEL OS:
  - Select **Enable DNS**
  - Set Nameserver to **10.0.0.1**
  - Set **Manually overwrite DHCP settings**
+ - Select **Ok**.
+
 
 **NOTE:** Other IP addresses can be **192.168.10.1** or **192.168.1.1**
 
