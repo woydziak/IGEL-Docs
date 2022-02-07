@@ -4,7 +4,7 @@
 
 ## Content based on post by Fredrik Brattstig @virtualbrat
 
-[Living Remote – Eating dogfood, Part 2 – Running VM’s in a “Thin Client” operating system. What??!? and WHY??!? Try using iNet Wireless Daemon (iwd) for Wi-Fi backend.](https://virtualbrat.com/2022/02/02/living-remote-eating-dogfood-part-2-running-vms-in-a-thin-client-operating-system-what-and-why/)
+[Living Remote – Eating dogfood, Part 2 – Running VM’s in a “Thin Client” operating system. What??!? and WHY??!?](https://virtualbrat.com/2022/02/02/living-remote-eating-dogfood-part-2-running-vms-in-a-thin-client-operating-system-what-and-why/)
 
 ### Overview of steps to setup on IGEL OS 11.06.210 or later
 
