@@ -29,6 +29,7 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [HOWTO Nutanix Frame Setup](Docs/HOWTO-Nutanix-Frame-Setup.md)
 - [HOWTO Work from Home Notes](Docs/HOWTO-Work-from-Home-Notes.md)
 - [HOWTO Run VMware Fusion VMs on MacOS Monterey](Docs/HOWTO-Run-VMware-Fusion-VMs-on-MacOS-Monterey.md)
+- [HOWTO Run VirtualBox Virtual Machines on IGEL OS](Docs/HOWTO-Run-VirtualBox-VMs-on-IGELOS.md)
 
 ## Release Notes
 
