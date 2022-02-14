@@ -10,7 +10,7 @@ Custom command could be used to set usernames for Citrix/VMWare/RDS as the "host
 
 ![image01](Images/HOWTO-Use-IGEL-Static-Template-Keys-01.jpeg)
 
-This may cause problems as the session sometimes starts before that commend can run.
+This may cause problems as the session sometimes starts before that command can run.
 
 -----
 
