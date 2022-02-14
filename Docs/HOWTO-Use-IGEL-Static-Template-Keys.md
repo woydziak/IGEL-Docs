@@ -2,15 +2,15 @@
 
 -----
 
-## Background from IGEL Support
+## Background on why to use
 
-IGEL support have started seeing some customers who have been using a custom command to set usernames for Citrix/VMWare/RDS as the "hostname" of the device, or something that contains the "hostname" of the device.
+Custom command could be used to set usernames for Citrix/VMWare/RDS as the "hostname" of the device, or something that contains the "hostname" of the device.
 
 **Example:**
 
 ![image01](Images/HOWTO-Use-IGEL-Static-Template-Keys-01.jpeg)
 
-This has been causing problems for some lately as the session sometimes starts before that commend can run. There is a better way to handle this in the OS, by using "Static Template Keys".
+This may cause problems as the session sometimes starts before that commend can run.
 
 -----
 
