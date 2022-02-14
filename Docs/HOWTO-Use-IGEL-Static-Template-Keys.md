@@ -29,3 +29,5 @@ Static template keys are not visible in the navigation tree; their values are re
 Please note that you will need to enable the "template profiles" in order to see these options in UMS.
 
 ![image03](Images/HOWTO-Use-IGEL-Static-Template-Keys-03.jpeg)
+
+[IGEL Knowledge Base - Using Template Keys in Profiles](https://kb.igel.com/endpointmgmt-6.09/en/using-template-keys-in-profiles-54067498.html)
