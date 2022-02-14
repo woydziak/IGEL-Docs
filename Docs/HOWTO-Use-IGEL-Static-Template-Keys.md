@@ -1,0 +1,31 @@
+# HOWTO Use Static Template Keys
+
+-----
+
+## Background from IGEL Support
+
+IGEL support have started seeing some customers who have been using a custom command to set usernames for Citrix/VMWare/RDS as the "hostname" of the device, or something that contains the "hostname" of the device.
+
+**Example:**
+
+![image01](Images/HOWTO-Use-IGEL-Static-Template-Keys-01.jpeg)
+
+This has been causing problems for some lately as the session sometimes starts before that commend can run. There is a better way to handle this in the OS, by using "Static Template Keys".
+
+-----
+
+## Steps to Setup Static Template Keys
+
+Static template keys are not visible in the navigation tree; their values are received directly from the thin client. Static template keys are marked with the § symbol. The following static template keys are available:
+
+- **MAC:** MAC address of the thin client
+- **HOSTNAME:** Host name of the thin client
+- **UNITID:** Unit ID of the thin client
+
+**Example:**
+
+![image02](Images/HOWTO-Use-IGEL-Static-Template-Keys-02.jpeg)
+
+Please note that you will need to enable the "template profiles" in order to see these options in UMS.
+
+![image03](Images/HOWTO-Use-IGEL-Static-Template-Keys-03.jpeg)
