@@ -37,6 +37,9 @@ cp /etc/os-release etc-os-release.txt
 cp /wfs/group.ini wfs-group.ini
 tar cvjf var-log.tar.bz2 /var/log
 
+# uncomment following line for VMware Horizon
+#tar cvjf vmware-user-logs.tar.bz2 /tmp/vmware-user
+
 # uncomment following line if using Imprivata
 #/services/imprivata/bin/fetch_support_info imprivata_logs_$(date +%y%m%d%H%M).zip
 
