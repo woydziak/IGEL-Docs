@@ -89,6 +89,16 @@ reboot
 
 -----
 
+## How to remove the starter license from the IGEL device:
+
+The starter license is not a file on the IGEL OS. Here is the command to remove starter license:
+
+```bash
+bootreg set /dev/igfdisk installation_date INVALID && bootreg set /dev/igfdisk installation_meta INVALID
+```
+
+-----
+
 ## Reset IGEL Device to Factory Defaults
 
 To reset IGEL device to factory defaults.
