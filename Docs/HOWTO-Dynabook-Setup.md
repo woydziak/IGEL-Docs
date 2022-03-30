@@ -105,3 +105,19 @@ Sample command to disable Touchpad:
 
 xinput set-prop "3830303142534F54:00 06CB:CE46 Touchpad" "Device Enabled" 0
    ```
+
+   -----
+
+### IGEL 11.07.100 Testing notes (30 March 2022)
+
+#### Wireless
+
+Use wpa_supplicant (default) for Wi-Fi backend
+
+#### Touchpad
+
+Touchpad not functional and output from journctl shows:
+
+```
+synclient_config: Couldn't find synaptics properties. No synaptics driver loaded?
+  ```
