@@ -121,3 +121,16 @@ Touchpad not functional and output from journctl shows:
 ```
 synclient_config: Couldn't find synaptics properties. No synaptics driver loaded?
   ```
+
+
+-----
+
+### IGEL 11.07.103 Testing notes (5 April 2022)
+
+#### Wireless
+
+Use wpa_supplicant (default) for Wi-Fi backend
+
+#### Touchpad
+
+11.07.103 the Touchpad is now functional.
