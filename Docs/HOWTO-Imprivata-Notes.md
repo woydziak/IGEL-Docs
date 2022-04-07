@@ -35,7 +35,7 @@ The the log files for Imprivata ProveID Embedded agent are located in:
 
 Edit Imprivata.conf file to reduce the Failovertime from 8 minutes to one minute.
 
-Create a profile to add the following command to custom commands - Desktop - Before desktop starts:
+Create a profile and add the following command to custom commands - Desktop - Before desktop starts:
 
 ```bash
 sed '/\[agent\]/i [mainloader.SSL]\nReadTimeout=15\nWriteTimeout=15\n ' /usr/lib/imprivata/runtime/etc/Imprivata.conf
