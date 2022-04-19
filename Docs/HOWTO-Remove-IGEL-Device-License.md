@@ -109,3 +109,18 @@ To reset IGEL device to factory defaults.
 ```bash
 /bin/reset_to_defaults
 ```
+
+-----
+
+## (OPTIONAL) Reset Unit ID to match the physical NIC MAC address
+
+To reset unit ID to match the physical NIC MAC address:
+
+```bash
+/bin/get_unit_id -i -r -f
+   ```
+Where:
+
+-i "information" lists the used MAC ID
+-r "reset" reset the MAC ID to the current hardware
+-f "force" forces the action
