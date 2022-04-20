@@ -1,7 +1,6 @@
 # HOWTO Microsoft Teams Optimization
 
-# [IGEL OS UCC Configuration Guide](http://files.igelcommunity.com/igelos_ucc_configuration_guide.pdf)
-
+# [IGEL OS UCC Configuration Guide](http://files.igelcommunity.com/igelos_ucc_guide.pdf)
 -----
 
 ## How to Check communication to the Microsoft API URLs and IPs?

@@ -2,4 +2,4 @@
 
 ## This document replaced by:
 
-# [IGEL OS UCC Configuration Guide](http://files.igelcommunity.com/igelos_ucc_configuration_guide.pdf)
+# [IGEL OS UCC Configuration Guide](http://files.igelcommunity.com/igelos_ucc_guide.pdf)
