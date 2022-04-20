@@ -31,6 +31,7 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [HOWTO Run VMware Fusion VMs on MacOS Monterey](Docs/HOWTO-Run-VMware-Fusion-VMs-on-MacOS-Monterey.md)
 - [HOWTO Run VirtualBox Virtual Machines on IGEL OS](Docs/HOWTO-Run-VirtualBox-VMs-on-IGELOS.md)
 - [HOWTO Use IGEL Static Template Keys](Docs/HOWTO-Use-IGEL-Static-Template-Keys.md)
+- [HOWTO Microsoft Teams Optimization](Docs/HOWTO-Microsoft-Teams-Optimization.md)
 
 ## Release Notes
 
