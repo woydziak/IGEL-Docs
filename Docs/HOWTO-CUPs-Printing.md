@@ -25,4 +25,4 @@ If printer is not network attached, then follow IGEL note on setting up CUPs pri
 - Connect printer to the network and create PPD file from IGEL OS.  
 
 ```bash
-driverless ipp://IP-address-of-printer/ipp/print | sed '/IP-address-of-printer/d' > /tmp/printer-name.PPD
+driverless ipp://IP-address-of-printer/ipp/print | sed -e '/IP-address-of-printer/d' -e 's/drvless/printer-name/' > /tmp/printer-name.PPD
