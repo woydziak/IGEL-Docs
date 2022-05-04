@@ -30,6 +30,8 @@ IGEL Knowledge Base: [OpenConnect VPN](https://kb.igel.com/igelos-11.06/en/openc
 
 ## Other VPN Clients (IGEL Community Custom Partitions on GitHub)
 
+[AWS VPN Client](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Network/AWS_VPN)
+
 [Check Point SSL Network Extender (SNX)](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Network/Check_Point_SSL_Network_Extender)
 
 [OpenFortiGUI](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Apps/OpenFortiGUI)
