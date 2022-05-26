@@ -4,7 +4,7 @@
 
 ## Product: TECRA A40-J (PMM10U) || Version: PMM10U-00101U
 
-### Tested with [IGEL OS 11.06.210](https://www.igel.com/software-downloads/workspace-edition/)
+### Tested with [IGEL OS 11.07.110](https://www.igel.com/software-downloads/workspace-edition/)
 
 ### Dynabook: [Demo Video](https://www.linkedin.com/posts/dynabookeurope_igel-igelos-vdisec-activity-6879395877476147200-XU6L)
 
@@ -53,17 +53,6 @@
 
 -----
 
-#### Use iNet Wireless Daemon (iwd) for Wi-Fi backend:
-
-1. Open up IGEL Setup.
-2. Select System > Registry.
-3. Select network.interfaces.wirelesslan.wireless_backend.
-4. Wi-Fi backend set to \<iNet Wireless Daemon (iwd)>.
-5. Select Ok.
-6. Reboot the device.
-
------
-
 #### Set action for display lid closing:
 
 1. Open up IGEL Setup.
@@ -106,13 +95,17 @@ Sample command to disable Touchpad:
 xinput set-prop "3830303142534F54:00 06CB:CE46 Touchpad" "Device Enabled" 0
    ```
 
-   -----
+----
+
+### IGEL 11.07.103 Testing notes (5 April 2022)
+
+#### Touchpad
+
+   11.07.103 the Touchpad is now functional.
+
+-----
 
 ### IGEL 11.07.100 Testing notes (30 March 2022)
-
-#### Wireless
-
-Use wpa_supplicant (default) for Wi-Fi backend
 
 #### Touchpad
 
@@ -121,16 +114,3 @@ Touchpad not functional and output from journctl shows:
 ```
 synclient_config: Couldn't find synaptics properties. No synaptics driver loaded?
   ```
-
-
------
-
-### IGEL 11.07.103 Testing notes (5 April 2022)
-
-#### Wireless
-
-Use wpa_supplicant (default) for Wi-Fi backend
-
-#### Touchpad
-
-11.07.103 the Touchpad is now functional.
