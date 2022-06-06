@@ -37,3 +37,7 @@ The provided documentation is without any warranty or support by IGEL Technology
 ## Release Notes
 
 - [Release Notes](https://github.com/IGEL-Community/IGEL-Docs/tree/main/Docs/ReleaseNotes)
+
+## IGEL Knowledge Base (PDF files)
+
+- [IGEL KB](https://github.com/IGEL-Community/IGEL-Docs/tree/main/Docs/IGEL-KB)
