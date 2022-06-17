@@ -108,6 +108,8 @@ Save the change and reboot without the “Force VESA driver” option being set.
 
 [IGEL OS Boot Menu Explained – Video](https://videos.igelcommunity.com/igel-os-boot-menu-explained-video/)
 
+[IGEL KB - Boot Menu](https://kb.igel.com/igelos-11.07/en/boot-menu-57334298.html)
+
 -----
 
 ## Access terminal console, terminal log screen, or setup
