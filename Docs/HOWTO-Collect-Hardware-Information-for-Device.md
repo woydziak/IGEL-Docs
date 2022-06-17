@@ -50,6 +50,15 @@ zip -r data_dump.zip data_dump
 
 -----
 
+## Search for string (audio) in data_dump files
+
+```
+cd data_dump
+find . -type f -exec echo "File NAME:  ===>> " {} \; -exec grep -i audio {} \; > /tmp/find_string_in_data_dump.txt
+   ```
+
+-----
+
 ## Enable Storage Hotplug (Devices > Storage Devices > Storage Hotplug)
 
 ![image01](Images/HOWTO-Collect-Hardware-Information-for-Device-01.png)
