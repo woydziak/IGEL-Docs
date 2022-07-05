@@ -60,12 +60,12 @@ Now that we have removed the license from the license portal, and UMS, we can mo
 
 ```bash
 mount -o remount,rw /license
-find . | grep -iRl ".*lic" /license/dsa/licenses/ | xargs -I {} rm -rf {}
+rm -rf /license/dsa/licenses/*.lic
 mount -o remount,ro /license
 reboot
 ```
 
-### Remove Workspace edition licenses
+### Remove Enterprise Management pack licenses  
 
 ```bash
 mount -o remount,rw /license
@@ -76,7 +76,7 @@ mount -o remount,ro /license
 reboot
 ```
 
-### Remove Enterprise Management pack licenses  
+### Remove Workspace edition licenses
 
 ```bash
 mount -o remount,rw /license
