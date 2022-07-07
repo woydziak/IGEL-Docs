@@ -64,6 +64,14 @@
 
 -----
 
+#### Improve sound quality for internal speakers or HDMI / DP
+
+Setting to improve sound quality:
+
+System > Registry > multimedia.pulseaudio.daemon.resample-method > speex-float-3
+
+-----
+
 #### (Optional) To disable touch pad and use external mouse:
 
 1. Open up IGEL Setup.
