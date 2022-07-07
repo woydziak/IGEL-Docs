@@ -121,6 +121,14 @@ Save the change and reboot without the “Force VESA driver” option being set.
 
 -----
 
+## Improve sound quality for internal speakers or HDMI / DP
+
+Setting to improve sound quality:
+
+System > Registry > multimedia.pulseaudio.daemon.resample-method > speex-float-3
+
+-----
+
 ## Access terminal console, terminal log screen, or setup
 
 - Access to terminal console: \<Ctl>\<Alt>\<F12>
