@@ -33,6 +33,7 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [HOWTO Use IGEL Static Template Keys](Docs/HOWTO-Use-IGEL-Static-Template-Keys.md)
 - [HOWTO Microsoft Teams Optimization](Docs/HOWTO-Microsoft-Teams-Optimization.md)
 - [HOWTO CUPs Printing](Docs/HOWTO-CUPs-Printing.md)
+- [HOWTO Zero Trust Networking](Docs/HOWTO-Zero-Trust-Networking.md)
 
 ## Release Notes
 
