@@ -93,7 +93,7 @@ login as "user" or "root": root
 
 ## Tips for prepping PC for IGEL OS install
 
-- Make sure BIOS is at latest version. Check [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/lvfs/docs/users). Until IGEL OS supports LVFS, BIOS can be updated from Ubuntu 18.04. If the PC is not in LVFS, check for latest BIOS from vendor web site.
+- Make sure BIOS is at latest version. Check [Linux Vendor Firmware Service (LVFS)](https://fwupd.org/lvfs/docs/users). IGEL OS 11.08.XXX or newer supports [LVFS for BIOS from UMS](https://kb.igel.com/igelos-11.08/en/bios-update-for-devices-supported-by-lvfs-63806668.html).
 - Make sure BIOS is set back to default settings.
 - Check for and apply BIOS settings for Ubuntu 18.04.
 
@@ -233,6 +233,17 @@ update
 
 | Under the igelos/amd64 and igelos/arm64 paths, the subpaths for the various versions of IGEL OS public and private. |
 |-----------------------|
-| igelos/amd64/11.06.100 |
-| igelos/amd64/11.06.102 |
+| igelos/amd64/11.08.110 |
+| igelos/amd64/11.07.920 |
+| igelos/amd64/11.07.170 |
 | igelos/arm64/11.01.120 |
+
+-----
+
+## Hardware Notes
+
+[Microsoft Surface](https://github.com/linux-surface/linux-surface/wiki/Supported-Devices-and-Features#feature-matrix)
+
+[Laptop Docking Station - HP USB-C Dock G5](https://kb.igel.com/igelos-11.08/en/new-features-11-07-170-63805526.html). Link to HP's web site -- [LINK](https://www.hp.com/us-en/shop/pdp/hp-usb-c-dock-g5-p-5tw10aa-aba-1). This device will work for other laptops that support USB-C docks. IGEL UMS supports firmware updates to this dock.
+
+[Dynabook Setup TECRA A40-J (PMM10U) || Version: PMM10U-00101U](https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/HOWTO-Dynabook-Setup.md)
