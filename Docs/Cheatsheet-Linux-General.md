@@ -402,3 +402,34 @@ igel-shutdown-debug
 igel-shutdown-inhibitor
 --More--
 ```
+
+## xinput
+
+utility to configure and test X input devices
+
+**list all input devices:**
+
+```bash
+xinput --list
+```
+```bash
+⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+⎜   ↳ 3830303142534F54:00 06CB:CE46 Mouse     	id=11	[slave  pointer  (2)]
+⎜   ↳ Logitech USB-PS/2 Optical Mouse         	id=9	[slave  pointer  (2)]
+⎜   ↳ 3830303142534F54:00 06CB:CE46 Touchpad  	id=12	[slave  pointer  (2)]
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+    ↳ Toshiba input device                    	id=14	[slave  keyboard (3)]
+    ↳ Video Bus                               	id=6	[slave  keyboard (3)]
+    ↳ Power Button                            	id=7	[slave  keyboard (3)]
+    ↳ Sleep Button                            	id=8	[slave  keyboard (3)]
+    ↳ AT Translated Set 2 keyboard            	id=13	[slave  keyboard (3)]
+    ↳ Web Camera - HD: Web Camera - H         	id=10	[slave  keyboard (3)]
+```
+
+**disable touchpad:**
+
+```bash
+xinput set-prop "3830303142534F54:00 06CB:CE46 Touchpad" "Device Enabled" 0
+```

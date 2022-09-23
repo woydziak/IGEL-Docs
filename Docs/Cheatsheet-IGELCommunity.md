@@ -38,6 +38,7 @@
 | [vi](Cheatsheet-Linux-General.md#vi)                       | texteditor                                 |
 | [watch](Cheatsheet-Linux-General.md#watch)                 | repeat periodic a command                  |
 | [which](Cheatsheet-Linux-General.md#which)                 | locate command                             |
+| [xinput](Cheatsheet-Linux-General.md#xinput)               | utility to configure and test X input devices |
 
 ## [IGELOS General](Cheatsheet-IGELOS-General.md)
 
