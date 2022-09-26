@@ -30,6 +30,18 @@ IGEL Knowledge Base: [OpenConnect VPN](https://kb.igel.com/igelos-11.08/en/openc
 
 -----
 
+## How to setup for Global Protect VPN via a web portal so that user can enter their MFA pin
+
+```bash
+openconnect --protocol=gp IP-address --usergroup=gateway | grep -Eo "(https)://login[a-zA-Z0-9./?=_%:-]*" | xargs /config/sessions/chromium0
+```
+
+What it does: it searches for https//login into the stream and send this stream to a chromium browser session.
+
+**Note:** Only the session needs to exist before (but no icon is needed). It is working as user.
+
+-----
+
 ## OpenConnect VPN Client Documentation
 
 [OpenConnect VPN Client](https://www.infradead.org/openconnect/index.html)
