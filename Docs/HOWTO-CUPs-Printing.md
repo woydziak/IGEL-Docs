@@ -26,3 +26,14 @@ If printer is not network attached, then follow IGEL note on setting up CUPs pri
 
 ```bash
 driverless ipp://IP-address-of-printer/ipp/print | sed -e '/IP-address-of-printer/d' -e 's/drvless/printer-name/' > /tmp/printer-name.PPD
+```
+
+-----
+
+## USB always on (Printer, Scanner, etc.)
+
+System > Firmware Customization > Custom Commands > Desktop
+
+```bash
+echo on | tee /sys/bus/usb/devices/*/powerlevel > /dev/null
+```
