@@ -35,5 +35,5 @@ driverless ipp://IP-address-of-printer/ipp/print | sed -e '/IP-address-of-printe
 System > Firmware Customization > Custom Commands > Desktop
 
 ```bash
-echo on | tee /sys/bus/usb/devices/*/powerlevel > /dev/null
+echo on | tee /sys/bus/usb/devices/*/power/level > /dev/null
 ```
