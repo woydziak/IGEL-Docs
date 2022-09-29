@@ -1,4 +1,4 @@
-# HOWTO Use OpenConnect VPN Client
+# HOWTO VPN
 
 -----
 
