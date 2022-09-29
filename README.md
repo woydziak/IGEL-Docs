@@ -3,9 +3,13 @@
 IGEL-Docs is a repository hosting all kind of IGEL-Community related documentation.
 The provided documentation is without any warranty or support by IGEL Technology.
 
+-----
+
 ## CheatSheets
 
 - [Cheatsheet IGELCommunity](Docs/Cheatsheet-IGELCommunity.md)
+
+-----
 
 ### Detailed
 
@@ -14,30 +18,36 @@ The provided documentation is without any warranty or support by IGEL Technology
 - [Cheatsheet IGELOS Networking](Docs/Cheatsheet-IGELOS-Networking.md)
 - [Cheatsheet Linux General](Docs/Cheatsheet-Linux-General.md)
 
+-----
+
 ## HOWTOs
 
-- [HOWTO Create USB installation medium MacOS](Docs/HOWTO-Create-USB-Installation-medium-MacOS.md)
 - [HOWTO Collect Hardware Information for Device](Docs/HOWTO-Collect-Hardware-Information-for-Device.md)
+- [HOWTO Create USB installation medium MacOS](Docs/HOWTO-Create-USB-Installation-medium-MacOS.md)
+- [HOWTO CUPs Printing](Docs/HOWTO-CUPs-Printing.md)
+- [HOWTO Dynabook Setup](Docs/HOWTO-Dynabook-Setup.md)
+- [HOWTO Edit Initial Settings Prior to OSC Install](Docs/HOWTO-Edit-Initial-Settings-OSC.md)
+- [HOWTO IGEL Static Template Keys](Docs/HOWTO-Use-IGEL-Static-Template-Keys.md)
+- [HOWTO Imprivata Notes](Docs/HOWTO-Imprivata-Notes.md)
+- [HOWTO Microsoft Teams Optimization](Docs/HOWTO-Microsoft-Teams-Optimization.md)
+- [HOWTO Nutanix Frame Setup](Docs/HOWTO-Nutanix-Frame-Setup.md)
 - [HOWTO Re-enable TLSv1 and TLSv1.1 on UMS](Docs/HOWTO-Re-enable_TLSv1_and_TLSv11_on_UMS.md)
 - [HOWTO Remove IGEL Device License](Docs/HOWTO-Remove-IGEL-Device-License.md)
-- [HOWTO Using Webcams Remote Sessions](Docs/HOWTO-Using-Webcams-Remote-Sessions.md)
-- [HOWTO Write Config Files to OSC ISO image](Docs/HOWTO-Write-Config-Files-OSC-ISO.md)
-- [HOWTO Edit Initial Settings Prior to OSC Install](Docs/HOWTO-Edit-Initial-Settings-OSC.md)
-- [HOWTO Imprivata Notes](Docs/HOWTO-Imprivata-Notes.md)
-- [HOWTO Use OpenConnect VPN Client](Docs/HOWTO-Use-OpenConnect-VPN-Client.md)
-- [HOWTO Dynabook Setup](Docs/HOWTO-Dynabook-Setup.md)
-- [HOWTO Nutanix Frame Setup](Docs/HOWTO-Nutanix-Frame-Setup.md)
+- [HOWTO VirtualBox Virtual Machines on IGEL OS](Docs/HOWTO-Run-VirtualBox-VMs-on-IGELOS.md)
+- [HOWTO VMware Fusion VMs on MacOS Monterey](Docs/HOWTO-Run-VMware-Fusion-VMs-on-MacOS-Monterey.md)
+- [HOWTO VPN](Docs/HOWTO-Use-VPN-Client.md)
+- [HOWTO Webcams Remote Sessions](Docs/HOWTO-Using-Webcams-Remote-Sessions.md)
 - [HOWTO Work from Home Notes](Docs/HOWTO-Work-from-Home-Notes.md)
-- [HOWTO Run VMware Fusion VMs on MacOS Monterey](Docs/HOWTO-Run-VMware-Fusion-VMs-on-MacOS-Monterey.md)
-- [HOWTO Run VirtualBox Virtual Machines on IGEL OS](Docs/HOWTO-Run-VirtualBox-VMs-on-IGELOS.md)
-- [HOWTO Use IGEL Static Template Keys](Docs/HOWTO-Use-IGEL-Static-Template-Keys.md)
-- [HOWTO Microsoft Teams Optimization](Docs/HOWTO-Microsoft-Teams-Optimization.md)
-- [HOWTO CUPs Printing](Docs/HOWTO-CUPs-Printing.md)
+- [HOWTO Write Config Files to OSC ISO image](Docs/HOWTO-Write-Config-Files-OSC-ISO.md)
 - [HOWTO Zero Trust Networking](Docs/HOWTO-Zero-Trust-Networking.md)
+
+-----
 
 ## Release Notes
 
 - [Release Notes](https://github.com/IGEL-Community/IGEL-Docs/tree/main/Docs/ReleaseNotes)
+
+-----
 
 ## IGEL Knowledge Base (PDF files)
 
