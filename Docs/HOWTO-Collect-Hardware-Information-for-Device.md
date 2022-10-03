@@ -19,7 +19,7 @@
 
 Collection script (collect_data.sh) to copy onto thumb drive
 
-```
+```bash
 #!/bin/bash
 
 mkdir data_dump
@@ -46,16 +46,16 @@ tar cvjf var-log.tar.bz2 /var/log
 cd ..
 
 zip -r data_dump.zip data_dump
-   ```
+```
 
 -----
 
 ## Search for string (audio) in data_dump files
 
-```
+```bash
 cd data_dump
 find . -type f -exec echo "File NAME:  ===>> " {} \; -exec grep -i audio {} \; > /tmp/find_string_in_data_dump.txt
-   ```
+```
 
 -----
 
@@ -67,7 +67,7 @@ find . -type f -exec echo "File NAME:  ===>> " {} \; -exec grep -i audio {} \; >
 
 ## Run Collection Script (Open Terminal Window)
 
-```
+```bash
 login as "user" or "root": root
  # df -H | grep media
  /dev/sda1    17G   44M     17G   1%  /media/B2B0AB93
@@ -80,7 +80,7 @@ login as "user" or "root": root
  data_dump
  data_dump.zip
  # exit
-  ```
+```
 
 -----
 
@@ -168,11 +168,11 @@ https://kb.igel.com/igellinux/en/extended-logging-with-syslog-tcpdump-and-netlog
    setparam update.file.path /media/<name of USB storage device>
 7. Start the update process in the / directory using the command update
    update
-   ```
+```
 
 Sample script:
 
-  ```
+```bash
 #!/bin/bash
 
 setparam devices.hotplug.usb-storage.numdevices 1
@@ -182,7 +182,7 @@ setparam update.protocol file
 # next command only works if one device is mounted into /media
 setparam update.file.path /media/$(ls /media)
 update
-  ```
+```
 
 -----
 
@@ -202,7 +202,7 @@ Configure Firmware Update settings with the following parameters and then select
 
 Sample script:
 
- ```
+```bash
 #!/bin/bash
 
 # Updating to IGEL OS - Current Version
@@ -221,7 +221,7 @@ setparam update.https.path igelos/current
 
 #Start the update process
 update
-   ```
+```
 
 ### North America fw.igelize.me server layout
 
@@ -247,3 +247,38 @@ update
 [Laptop Docking Station - HP USB-C Dock G5](https://kb.igel.com/igelos-11.08/en/new-features-11-07-170-63805526.html). Link to HP's web site -- [LINK](https://www.hp.com/us-en/shop/pdp/hp-usb-c-dock-g5-p-5tw10aa-aba-1). This device will work for other laptops that support USB-C docks. IGEL UMS supports firmware updates to this dock.
 
 [Dynabook Setup TECRA A40-J (PMM10U) || Version: PMM10U-00101U](https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/HOWTO-Dynabook-Setup.md)
+
+[How to reset USB controllers](https://unix.stackexchange.com/questions/704341/how-to-reset-usb-controllers)
+
+```bash
+#!/bin/#!/usr/bin/env bash
+#set -x
+#trap read debug
+# Resets all USB host controllers of the system.
+# This is useful in case one stopped working
+# due to a faulty device having been connected to it.
+
+base="/sys/bus/pci/drivers"
+sleep_secs="1"
+
+# This might find a sub-set of these:
+# * 'ohci_hcd' - USB 3.0
+# * 'ehci-pci' - USB 2.0
+# * 'xhci_hcd' - USB 3.0
+echo "Looking for USB standards ..."
+for usb_std in "$base/"?hci*
+do
+    echo "* USB standard '$usb_std' ..."
+    for dev_path in "$usb_std/"*:*
+    do
+        dev="$(basename "$dev_path")"
+        echo "  - Resetting device '$dev' ..."
+        printf '%s' "$dev" | sudo tee "$usb_std/unbind" > /dev/null
+        sleep "$sleep_secs"
+        printf '%s' "$dev" | sudo tee "$usb_std/bind" > /dev/null
+        echo "    done."
+    done
+    echo "  done."
+done
+echo "done."
+```
