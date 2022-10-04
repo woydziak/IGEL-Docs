@@ -433,3 +433,24 @@ xinput --list
 ```bash
 xinput set-prop "3830303142534F54:00 06CB:CE46 Touchpad" "Device Enabled" 0
 ```
+
+## xset
+
+user preference utility for X
+
+[Screen Blanking](https://shallowsky.com/linux/x-screen-blanking.html)
+
+**testing dpms signal for monitor to turn off, waiting 15 seconds, then signal monitor to turn on**
+
+```bash
+sleep 1; xset dpms force off; sleep 15; xset dpms force on;
+```
+**commands to trigger the various states**
+
+```bash
+sleep 1; xset s activate;  # will blank the screen (or activate the screensaver program, if you're using one) after a delay of one second
+sleep 1; xset dpms force off;  # dpms turn the screen OFF after a delay of one second.
+sleep 1; xset dpms force standby;  # dpms screen standby after a delay of one second.
+sleep 1; xset dpms force suspend;  # dpms screen suspend after a delay of one second.
+sleep 1; xset dpms force on;  # dpms screen ON after a delay of one second.
+```
