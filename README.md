@@ -1,6 +1,6 @@
 # IGEL-Docs
 
-IGEL-Docs is a repository hosting of IGEL-Community related documentation.
+IGEL-Docs is a repository hosting of the IGEL-Community related documentation.
 This documentation is without any warranty or support by IGEL Technology.
 
 -----
