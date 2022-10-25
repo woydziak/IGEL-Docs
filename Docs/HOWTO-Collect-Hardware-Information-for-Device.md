@@ -246,6 +246,8 @@ update
 
 [Lenovo - PSREF Product Specifications Reference](https://psref.lenovo.com/)
 
+[Lenovo - BIOS simulator](https://download.lenovo.com/bsco/) shows how to navigate the BIOS for each hardware type.
+
 [Laptop Docking Station - HP USB-C Dock G5](https://kb.igel.com/igelos-11.08/en/new-features-11-07-170-63805526.html). Link to HP's web site -- [LINK](https://www.hp.com/us-en/shop/pdp/hp-usb-c-dock-g5-p-5tw10aa-aba-1). This device will work for other laptops that support USB-C docks. IGEL UMS supports firmware updates to this dock.
 
 [Microsoft Surface](https://github.com/linux-surface/linux-surface/wiki/Supported-Devices-and-Features#feature-matrix)
