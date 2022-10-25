@@ -33,6 +33,7 @@ This documentation is without any warranty or support by IGEL Technology.
 - [HOWTO Nutanix Frame Setup](Docs/HOWTO-Nutanix-Frame-Setup.md)
 - [HOWTO Re-enable TLSv1 and TLSv1.1 on UMS](Docs/HOWTO-Re-enable_TLSv1_and_TLSv11_on_UMS.md)
 - [HOWTO Remove IGEL Device License](Docs/HOWTO-Remove-IGEL-Device-License.md)
+- [HOWTO Setup Lab Sandbox Environment](Docs/HOWTO-Setup-Lab-Sandbox-Environment.md)
 - [HOWTO VirtualBox Virtual Machines on IGEL OS](Docs/HOWTO-VirtualBox-VMs-on-IGELOS.md)
 - [HOWTO VMware Fusion VMs on MacOS Monterey](Docs/HOWTO-VMware-Fusion-VMs-on-MacOS-Monterey.md)
 - [HOWTO VPN](Docs/HOWTO-VPN.md)

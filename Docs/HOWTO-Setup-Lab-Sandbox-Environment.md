@@ -1,0 +1,136 @@
+# HOWTO Setup Lab Sandbox Environment
+
+-----
+
+## Summary of Steps to Create Lab Sandbox Environment
+
+-	Setup PC file system
+-	Install Virtual Box
+-	Install Linux and Windows virtual machines
+-	Install UMS on Linux (Ubuntu 18.04)
+-	Install UMS console on Windows
+-	Create IGEL OS clients
+-	Optional install ICG from UMS (ICG runs on Linux (Ubuntu 18.04))
+-	Optional – Advanced – Setting up firewall with pfSense (ICG <--> UMS)
+
+-----
+
+## Setup PC File System and Downloads
+
+Create a folder called igel-lab to hold:
+
+-	igel-download/ - `Installers (UMS, ICG, IGEL OS)`
+-	igel-packages/ - `Custom partitions from` [IGEL Community GitHub](https://github.com/IGEL-Community/IGEL-Custom-Partitions)
+-	guest-download/ - `Installers (Ubuntu, Windows, pfSense, Zenmap)`
+-	manuals/ - `Manuals (IGEL, VirtualBox, misc. documents)`
+
+Download software:
+
+-	[VirtualBox](https://www.virtualbox.org/) and install. IGEL OS 11 has VirtualBox Guest Additions built in to support shared folders.
+-	Linux ISO [Ubuntu Desktop 18.04]( https://releases.ubuntu.com/18.04/)
+-	Optional – [Windows Server 2019 ISO - 180 day trial](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019?filetype=ISO)
+-	[IGEL Software](https://www.igel.com/software-downloads) - OS 11, UMS - Workspace Edition, ICG - Enterprise Management Pack
+-	[Custom Partitions](https://github.com/IGEL-Community/IGEL-Custom-Partitions)
+
+-----
+
+## Create Linux VM for UMS Install
+
+- Follow VirtualBox guide for installing ISO image (Ubuntu 64 bit; 12GB RAM; 100GB Disk, take defaults for the rest; Shared folder to mount PC file system for images and packages)
+- After install then install time synchronization, update OS and upgrade OS
+
+```bash
+sudo apt install chrony -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt autoremove -y
+sudo apt install gcc make perl -y
+sudo reboot now
+   ```
+
+- Mount VirtualBox Guest Additions CD image `VitrualBox VM > Devices > Insert Guest Additions CD image...`
+- Install VirtualBox Guest Additions `cd /media/.../VBox_GA...; sudo ./VBoxLinuxAdditions.run`
+- Add login account to vboxfs group `sudo vi /etc/group; sudo reboot now`
+
+-----
+
+## Install UMS on Linux
+
+- Follow IGEL Linux installation notes -- [LINK](https://kb.igel.com/endpointmgmt-6.10/en/igel-ums-installation-under-linux-57320981.html)
+- sudo ./setup-igel-ums-linux-[version].bin
+
+**Note** Steps to install on Windows -- [LINK](https://kb.igel.com/endpointmgmt-6.10/en/igel-ums-installation-under-windows-57321024.html)
+
+- IGEL Community on GitHub UMS Console setup - [LINK](https://github.com/IGEL-Community/IGEL-Scripts/tree/main/Script_Source/Server/UMS_Console_Ubuntu_Build)
+-----
+
+## Create IGEL OS Clients
+
+VirtualBox > New
+
+- Name: `name of IGEL OS system`
+- Type: `Linux`
+- Version: `Ubuntu (64-bit)`
+- Memory size: `4096 MB`
+- `Defaults for the rest`
+- `Create`
+- `Settings > Network > Attached to Bridged Adapter`
+- Folder Name: `igel-lab`
+- `automount`
+- `OK`
+- Start VM
+- Disk file to install from: `path to IGEL OS 11 ISO file`
+- Start
+
+Follow IGEL OS installation procedures - [LINK](https://kb.igel.com/igelos-11.08.200/en/installation-procedure-69178239.html)
+
+-----
+
+## Registering Devices on the UMS Server
+
+- UMS endpoint management (see searching for devices) - [LINK](https://kb.igel.com/endpointmgmt-6.10/en/registering-igel-os-devices-on-the-ums-server-57321102.html)
+
+-----
+
+## Run UMS Web App
+
+- Start UMS Web App - `https://<UMS-Server>:8443/webapp/#/login`
+- UMS Web App help - [LINK](https://kb.igel.com/endpointmgmt-6.10/en/ums-web-app-57322471.html)
+
+-----
+
+## Optional - Install ICG from UMS
+
+- Follow VirtualBox guide for installing ISO image (Ubuntu 64 bit; 4GB RAM; 25GB Disk, take defaults for the rest)
+- After install then install time synchronization, update OS and upgrade OS
+
+```bash
+sudo apt install chrony -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt autoremove -y
+sudo reboot now
+   ```
+
+- Follow IGEL ICG install from UMS - [LINK](https://kb.igel.com/igelicg-2.05/en/installing-the-igel-cloud-gateway-57324362.html)
+- IGEL Community GitHub ICG setup script - [LINK](https://github.com/IGEL-Community/IGEL-Scripts/tree/main/Script_Source/Server/ICG_Ubuntu_Build)
+
+-----
+
+## Optional - Advanced - Setting up Firewall with pfSense
+
+The IGEL Cloud Gateway (ICG) is required if the UMS and the devices are not in the same network. The following scenarios are typical use cases for the ICG:
+
+-	The endpoint devices (IGEL UD, UD Pocket or devices converted by UDC3/OSC) of all geographically dispersed branches of a company are to be managed by one central UMS.
+-	UD Pocket or devices converted by UDC3/OSC are to be managed by the UMS which is residing on premises.
+
+Use pfSense to create firewall (DMZ)
+
+-	Place the ICG and IGEL OS clients outside the firewall (internet)
+-	Place the UMS inside the firewall (company network)
+-	Follow this guide for setting up pfSense - [LINK](https://resources.infosecinstitute.com/topic/setting-pentest-lab-pfsense-virtualbox/)
+-	Setup network discovery and security auditing software (Zenmap) to probe the servers and find open ports - [LINK](https://nmap.org/zenmap/)
+
+![image01](Images/HOWTO-Setup-Lab-Sandbox-Environment-01.png)
+![image02](Images/HOWTO-Setup-Lab-Sandbox-Environment-02.png)
+![image03](Images/HOWTO-Setup-Lab-Sandbox-Environment-03.png)
