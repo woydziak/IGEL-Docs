@@ -8,7 +8,6 @@
 -	Install Virtual Box
 -	Install Linux and Windows virtual machines
 -	Install UMS on Linux (Ubuntu 18.04)
--	Install UMS console on Windows
 -	Create IGEL OS clients
 -	Optional install ICG from UMS (ICG runs on Linux (Ubuntu 18.04))
 -	Optional – Advanced – Setting up firewall with pfSense (ICG <--> UMS)
