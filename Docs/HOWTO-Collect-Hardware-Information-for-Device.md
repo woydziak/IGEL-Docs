@@ -242,6 +242,8 @@ update
 
 ## Hardware Notes
 
+[Secured-Core PCs: Microsoft 3d-Party UEFI Certificate for Secure Boot](https://kb.igel.com/securitysafety/en/secured-core-pcs-microsoft-3d-party-uefi-certificate-for-secure-boot-70156597.html)
+
 [Dynabook Setup TECRA A40-J (PMM10U) || Version: PMM10U-00101U](https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/HOWTO-Dynabook-Setup.md)
 
 [Lenovo - PSREF Product Specifications Reference](https://psref.lenovo.com/)
