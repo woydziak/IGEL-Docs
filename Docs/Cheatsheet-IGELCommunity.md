@@ -48,7 +48,7 @@
 | /config/bin/firmware-update                                       | Start firmware update                                       |
 | [apparmor_status](Cheatsheet-IGELOS-General.md#apparmor_status)                                       | Lists all services protected by apparmor                    |
 | applauncher                                             | Starts the application launcher                             |
-| [chromium-browser](Cheatsheet-IGELOS-General.md#chromium-browser) | Start Chromium Brower |
+| [chromium-browser](Cheatsheet-IGELOS-General.md#chromium-browser) | Start Chromium Browser |
 | [curl](Cheatsheet-IGELOS-General.md#curl)               | Check for trusted certificate or download files         |
 | custompart                                              | Delete/Create a custom partition                            |
 | delinstance                                             | Delete a session or instance                                |
