@@ -454,3 +454,18 @@ sleep 1; xset dpms force standby;  # dpms screen standby after a delay of one se
 sleep 1; xset dpms force suspend;  # dpms screen suspend after a delay of one second.
 sleep 1; xset dpms force on;  # dpms screen ON after a delay of one second.
 ```
+
+## wmctrl
+
+List windows managed by the window manager
+
+```bash
+wmctrl -l  
+  ```  
+
+Close VMware window
+
+```bash
+wmctrl -c VMware
+  ```
+  
