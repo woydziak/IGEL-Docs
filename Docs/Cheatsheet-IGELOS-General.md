@@ -153,3 +153,11 @@ IGEL Cloud Gateway config; with url and mass deployment key
 ```bash
 
 ```
+
+## vdm_client0
+
+After creating a VMware Horizon session, you can get it to run fully as User from command line with the following command.
+
+```bash
+su -c "XDG_RUNTIME_DIR=/run/user/777 /config/sessions/vdm_client0" user &
+  ```

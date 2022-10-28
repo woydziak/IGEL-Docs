@@ -95,6 +95,7 @@
 | user_reboot                                             | Reboot as user                                              |
 | user_shutdown                                           | Shutdown as User                                            |
 | vget                                                    | Get specification for a variable                            |
+| [vdm_client0](Cheatsheet-IGELOS-General.md#vdm_client0) | Start VMware Horizon client |
 | write_rmsettings                                        | Write local setup changes back to UMS.                      |
 | xfce4-display-settings                                  | Start the old Display Switcher as binary                    |
 | xrandr                                                  | Controls the Screens from command line                      |
