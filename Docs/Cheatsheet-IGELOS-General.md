@@ -117,6 +117,14 @@ Manually set new Unit ID
 Choose number to abort or set new Unit ID:
 ```
 
+## chromium-browser
+
+Start Chromium browser in App Mode for Citrix Storefront and similar pages - to use with Custom App function
+
+```bash
+chromium-browser --app=https://storefront-url.domain.org --start-maximized
+  ```
+
 ## curl
 
 Check for trusted certificate or download files
