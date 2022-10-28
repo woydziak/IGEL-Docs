@@ -161,3 +161,17 @@ After creating a VMware Horizon session, you can get it to run fully as User fro
 ```bash
 su -c "XDG_RUNTIME_DIR=/run/user/777 /config/sessions/vdm_client0" user &
   ```
+
+## wmctrl
+
+List windows managed by the window manager
+
+```bash
+wmctrl -l  
+  ```  
+
+Close VMware window
+
+```bash
+wmctrl -c VMware
+  ```
