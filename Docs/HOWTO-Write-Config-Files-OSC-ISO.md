@@ -33,7 +33,7 @@ mount -o loop,offset=$((300*512)) osc<version>.iso /tmp/IGEL
 Create wfs_template directory and copy files that will go into /wfs (such as setup.init, .ovpn files, ca-certs, etc.)
 
 ```bash
-mkdir /tmp/IGEL/igel/wfs_template  
+mkdir -p /tmp/IGEL/igel/wfs_template  
 cp files /tmp/IGEL/igel/wfs_template
 ```
 
