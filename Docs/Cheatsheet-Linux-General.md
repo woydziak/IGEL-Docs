@@ -267,6 +267,16 @@ cat group.ini
 ...
 ```
 
+## less
+
+less is more and allows backward movement (hit "b" key) in the file, as well as forward movement (hit "f" key), search for string (hit "/" key and enter string to search for), or to quit (hit "q" key)
+
+**show contents of group.ini, hit key "f" to go forward, hit key "b" to go backward, hit key "/"  and the text to search for:**
+
+```bash
+less /wfs/group.ini
+```
+
 ## more
 
 display the content of a file page by page

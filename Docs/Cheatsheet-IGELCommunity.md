@@ -14,6 +14,7 @@
 | [grep](Cheatsheet-Linux-General.md#grep)                   | search for regular expression              |
 | [kill](Cheatsheet-Linux-General.md#kill)                   | kill a running task by process id          |
 | [killall](Cheatsheet-Linux-General.md#killall)             | kill a running task by name                |
+| [less](Cheatsheet-Linux-General.md#less)                   | less is more and allows backward movement in the file as well as forward movement |
 | lpc                                                        | Printer control tool                       |
 | lpq                                                        | Show current print jobs                    |
 | lpr                                                        | Print a file                               |
