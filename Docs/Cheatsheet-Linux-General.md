@@ -56,6 +56,45 @@ create a file
 touch new.sh
 ```
 
+## tr
+
+translates, deletes, and squeezes characters
+
+**Print $PATH directories on a separate line**
+
+```bash
+echo $PATH | tr  ':' '\n'
+```
+
+```bash
+/bin
+/sbin
+/usr/bin
+/usr/sbin
+```
+
+**Remove the repeated space characters**
+
+```bash
+ps -ef | tr -s ' ' | grep terminal
+```
+
+```
+user 23850 23849 0 10:30 ? 00:00:00 /usr/bin/xfce4-terminal -T Local Terminal -e check_passwd --disable-server --geometry 90x38
+user 23915 23860 0 10:44 pts/0 00:00:00 grep --color=auto terminal
+
+```
+
+**Remove all non-numeric characters**
+
+```bash
+echo "IGEL Priority Plus phone number for US and Canada is 415-813-3933" | tr -cd [:digit:]
+```
+
+```bash
+4158133933
+```
+
 ## chmod
 
 change file attributes
@@ -468,4 +507,3 @@ Close VMware window
 ```bash
 wmctrl -c VMware
   ```
-  

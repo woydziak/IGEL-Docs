@@ -32,6 +32,7 @@
 | [systemctl](Cheatsheet-Linux-General.md#systemctl)         | service handler                            |
 | [top](Cheatsheet-Linux-General.md#top)                     | task monitor                               |
 | [touch](Cheatsheet-Linux-General.md#touch)                 | create a file                              |
+| [tr](Cheatsheet-Linux-General.md#tr)                       | translates, deletes, and squeezes characters |
 | [uname](Cheatsheet-Linux-General.md#uname)                 | show linux details                         |
 | [user_reboot](Cheatsheet-Linux-General.md#user_reboot)     | reboot the system                          |
 | [user_shutdown](Cheatsheet-Linux-General.md#user_shutdown) | shutdown the system                        |
