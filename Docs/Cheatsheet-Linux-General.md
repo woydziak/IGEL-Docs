@@ -115,6 +115,12 @@ create a folder
 mkdir newdir
 ```
 
+**create folder dir3 and make parent directories dir2 and dir1 if they do not exist**
+
+```bash
+mkdir -p /tmp/dir1/dir2/dir3
+```
+
 ## rmdir
 
 delete a folder
