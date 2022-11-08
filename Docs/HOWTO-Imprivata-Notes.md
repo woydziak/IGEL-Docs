@@ -188,6 +188,7 @@ An issue may occur when using default directory rules with appliance mode, where
 
 [HOWTO-Imprivata-Notes-Appliance-Mode-DDR-Workaround-profile.xml](Profiles/HOWTO-Imprivata-Notes-Appliance-Mode-DDR-Workaround-profile.xml)
 
+-----
 ## Tips / Notes
 
 Location of the configuration file: `/usr/lib/imprivata/runtime/etc/Imprivata.conf`
@@ -200,3 +201,11 @@ log-activity = True
   ```
 
 Monitor the log file: `tail -f /usr/lib/imprivata/runtime/log/OneSignAgent.log`
+
+-----
+
+## FAQ
+
+**Q:** What is the best method to lock display?
+
+**A:** Use Imprivata’s fade to lock functionality rather than configuring the screensaver on the local IGEL OS - you can configure this from the IGEL computer policy OR VM computer policy
