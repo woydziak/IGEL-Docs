@@ -187,3 +187,16 @@ App instance (WMAppinstance):  igel_screensaver
 An issue may occur when using default directory rules with appliance mode, where appliance mode starts, but Imprivata does not start. This also occurs with all the other appliance modes, but most frequently comes up with Imprivata. The following profile can be assigned to the default directory, and then Imprivata (or other session) will start normally. This makes the device reboot one extra time, but the reboot happens automatically. This may be resolved by IGEL in a future release of IGEL OS, but the root cause has not yet been identified.
 
 [HOWTO-Imprivata-Notes-Appliance-Mode-DDR-Workaround-profile.xml](Profiles/HOWTO-Imprivata-Notes-Appliance-Mode-DDR-Workaround-profile.xml)
+
+## Tips / Notes
+
+Location of the configuration file: `/usr/lib/imprivata/runtime/etc/Imprivata.conf`
+
+Edit the file with nano editor: `nano /usr/lib/imprivata/runtime/etc/Imprivata.conf`
+
+```bash
+[windows.monitor]
+log-activity = True
+  ```
+
+Monitor the log file: `tail -f /usr/lib/imprivata/runtime/log/OneSignAgent.log`
