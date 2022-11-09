@@ -189,6 +189,23 @@ An issue may occur when using default directory rules with appliance mode, where
 [HOWTO-Imprivata-Notes-Appliance-Mode-DDR-Workaround-profile.xml](Profiles/HOWTO-Imprivata-Notes-Appliance-Mode-DDR-Workaround-profile.xml)
 
 -----
+
+## Sample setup of Imprivata with a screensaver that locks
+
+The screensaver settings are in the Imprivata Appliance Computer Policy set for IGEL ProveID devices.
+
+Steps:
+
+- First make sure the IGEL devices have NO screensaver set (either via a Screen Saver Policy or Firmware Customization)
+- Enable Imprivata Appliance Mode via a Policy
+- Have Imprivata administrator edit the IGEL Computer policy to set the following in the Walk-Away Security section (see screenshots below)
+
+**Note:** This example is a screensaver that hides the screen at 2 minutes, and locks at 15 minutes.
+
+![image01](Images/HOWTO-Imprivata-Notes-01.png)
+![image01](Images/HOWTO-Imprivata-Notes-02.png)
+-----
+
 ## Tips / Notes
 
 Location of the configuration file: `/usr/lib/imprivata/runtime/etc/Imprivata.conf`
