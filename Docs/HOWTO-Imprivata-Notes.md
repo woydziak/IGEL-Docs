@@ -204,6 +204,7 @@ Steps:
 
 ![image01](Images/HOWTO-Imprivata-Notes-01.png)
 ![image01](Images/HOWTO-Imprivata-Notes-02.png)
+
 -----
 
 ## Tips / Notes
