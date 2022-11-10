@@ -36,6 +36,46 @@ PING igelrmserver (10.10.10.101) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.361/0.581/0.758/0.173 ms
 
 ```
+## nc
+
+Use nc to test Microsoft Teams communication - Microsoft API URLs and IPs
+
+If Microsoft Teams is not running in optimized mode, then check that the IGEL endpoint can communicate with the Microsoft API URLs and IPs?
+
+Run the following script in a local terminal window on IGEL endpoint:
+
+```bash
+#!/bin/bash
+
+nc -u -v -z 13.107.64.21 3478-3481
+nc -u -v -z 52.112.0.31 3478-3481
+nc -u -v -z 52.120.0.41 3478-3481
+nc -v -z teams.microsoft.com 80
+nc -v -z teams.microsoft.com 443
+nc -v -z compass-ssl.microsoft.com 443
+nc -v -z mlccdnprod.azureedge.net 443
+nc -v -z aka.ms 443
+```
+
+```bash
+Connection to 13.107.64.21 port 3478 succeeded!
+Connection to 13.107.64.21 port 3479 succeeded!
+Connection to 13.107.64.21 port 3480 succeeded!
+Connection to 13.107.64.21 port 3481 succeeded!
+Connection to 52.112.0.31 port 3478 succeeded!
+Connection to 52.112.0.31 port 3479 succeeded!
+Connection to 52.112.0.31 port 3480 succeeded!
+Connection to 52.112.0.31 port 3481 succeeded!
+Connection to 52.120.0.41 port 3478 succeeded!
+Connection to 52.120.0.41 port 3479 succeeded!
+Connection to 52.120.0.41 port 3480 succeeded!
+Connection to 52.120.0.41 port 3481 succeeded!
+Connection to teams.microsoft.com port 80 succeeded!
+Connection to teams.microsoft.com port 443 succeeded!
+Connection to compass-ssl.microsoft.com port 443 succeeded!
+Connection to mlccdnprod.azureedge.net port 443 succeeded!
+Connection to aka.ms port 443 succeeded!
+```
 
 ## /etc/init.d/network-manager
 

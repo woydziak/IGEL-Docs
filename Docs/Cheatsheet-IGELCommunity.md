@@ -107,6 +107,7 @@
 | command                                                                                | description                                                                                             |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [ping](Cheatsheet-IGELOS-Networking.md#ping)                                           | test the reachability of a host                                                                         |
+| [nc](Cheatsheet-IGELOS-Networking.md#nc)       | arbitrary TCP and UDP connections and listens |
 | [/etc/init.d/network-manager](Cheatsheet-IGELOS-Networking.md#etcinitdnetwork-manager) | manage network service                                                                                  |
 | [ftp](Cheatsheet-IGELOS-Networking.md#ftp)                                             | start the FTP client                                                                                    |
 | [netstat](Cheatsheet-IGELOS-Networking.md#netstat)                                     | display open connections                                                                                |
