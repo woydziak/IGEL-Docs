@@ -32,7 +32,7 @@ The PWA offers access to more capabilities, including custom backgrounds, galler
 
 Steps to install the PWA into Microsoft Edge:
 
-- Deploy Microsoft Edge Browser custom partition - [Microsoft Edge CP](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Browsers/Microsoft_Edge_stable)
+- Deploy Microsoft Edge Browser custom partition. **Note:** Increase the CP partition size by 500MB - [Microsoft Edge CP](https://github.com/IGEL-Community/IGEL-Custom-Partitions/tree/master/CP_Source/Browsers/Microsoft_Edge_stable)
 - Start up Microsoft Teams in the browser - [Microsoft Teams Login](https://teams.microsoft.com)
 - In the upper right hand corner of Edge, Select `...` (Settings and more (Alt+F))
 - Select `Apps > Install this site as an app`
