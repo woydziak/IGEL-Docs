@@ -29,7 +29,7 @@ This documentation is without any warranty or support by IGEL Technology.
 - [HOWTO Edit Initial Settings Prior to OSC Install](Docs/HOWTO-Edit-Initial-Settings-OSC.md)
 - [HOWTO IGEL Static Template Keys](Docs/HOWTO-IGEL-Static-Template-Keys.md)
 - [HOWTO Imprivata Notes](Docs/HOWTO-Imprivata-Notes.md)
-- [HOWTO Microsoft Teams Optimization](Docs/HOWTO-Microsoft-Teams-Optimization.md)
+- [HOWTO Microsoft Teams](Docs/HOWTO-Microsoft-Teams-Optimization.md)
 - [HOWTO Nutanix Frame Setup](Docs/HOWTO-Nutanix-Frame-Setup.md)
 - [HOWTO Re-enable TLSv1 and TLSv1.1 on UMS](Docs/HOWTO-Re-enable_TLSv1_and_TLSv11_on_UMS.md)
 - [HOWTO Remove IGEL Device License](Docs/HOWTO-Remove-IGEL-Device-License.md)
