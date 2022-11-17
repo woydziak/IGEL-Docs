@@ -63,5 +63,5 @@ microsoft-edge-stable --profile-directory=Default --app-id=cifhbcnohmdccbgoicgdj
 - icon:
 
 ```
-"/custom/edge_stable/userhome/.config/microsoft-edge/Default/Web Applications/Manifest Resources/cifhbcnohmdccbgoicgdjpfamggdegmo/Icons/256.png"
+/custom/edge_stable/userhome/.config/microsoft-edge-stable/Default/Web Applications/Manifest Resources/cifhbcnohmdccbgoicgdjpfamggdegmo/Icons/256.png
   ```
