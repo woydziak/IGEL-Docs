@@ -48,3 +48,20 @@ Steps to install the PWA into Microsoft Edge:
 
 ![Manage-PWA-apps](Images/HOWTO-Microsoft-Teams-04.png)
 ![Manage-PWA-Teams-app](Images/HOWTO-Microsoft-Teams-05.png)
+
+-----
+
+**NOTE:** Once Teams PWA application is installed, then the following shortcut can be created:
+
+
+- Command Line (cmdline):
+
+```
+microsoft-edge-stable --profile-directory=Default --app-id=cifhbcnohmdccbgoicgdjpfamggdegmo "--app-url=https://teams.microsoft.com/?clientType=pwa"
+  ```
+
+- icon:
+
+```
+"/custom/edge_stable/userhome/.config/microsoft-edge/Default/Web Applications/Manifest Resources/cifhbcnohmdccbgoicgdjpfamggdegmo/Icons/256.png"
+  ```
