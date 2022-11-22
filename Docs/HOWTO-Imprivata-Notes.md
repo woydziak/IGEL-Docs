@@ -126,7 +126,7 @@ If, however, you get xprop error xprop: error: Can't grab the mouse, then the cu
 4. Identify the metadata field values for the target application’s window in the displayed list. In the example above they are shown in **boldface**.
 The syntax of the boldfaced WM_Class line is: `WM_CLASS(string) = "WMAppInstance", "WMClass"`
 So in the example line from above, `WM_CLASS(STRING) = "sun-awt-X11-XFramePeer", "IGEL Setup"`
-the value `sun-awt-X11-XFramePeer` is a `WMAppInstance` window attribute and IGEL Setup is a `WMClass` window attribute. Similarly, `WM_NAME` string value `IGEL Setup 11.05.133.01 (Build 6.7.5)` is a `WMName` window attribute. Note that an app window may not have all three attributes.
+the value `sun-awt-X11-XFramePeer` is a `WMAppInstance` window attribute and `IGEL Setup` is a `WMClass` window attribute. Similarly, `WM_NAME` string value `IGEL Setup 11.05.133.01 (Build 6.7.5)` is a `WMName` window attribute. Note that an app window may not have all three attributes.
 5. Make note of the metadata field values and go to the next section, **Adding Metadata Field Values to the Admin Console and Rebooting Endpoints**.
 
 
@@ -137,17 +137,23 @@ To add the metadata field values for the application window to the Admin Console
 2. Select **Add application**. A **Lock screen access: add application** page opens.
 3. Enter an application name in the **Application nickname** field. This field simply identifies the entry in the lock screen access list.
 4. Enter in one or more of the **Name**, **Class**, and **App instance** fields the metadata values you found using either Getting Metadata Field Values for an Application Window from a Log File or Getting Metadata Field Values for an Application Window using the xprop Utility.
-**4a.** For the **App instance** field, enter the `WMAppInterface` or the `WMAppInstance` attribute you found, depending on which discovery method you used. Those two slightly different log entry names identify the same attribute.
-**4b.** Entering metadata values in two or three fields, rather than in only one field, can help ensure that only the desired application window is allowed atop the lock screen.
-**4c.** No error checking occurs for the field values. If you enter an incorrect value, the Admin Console accepts it, but the system does not allow the desired window above the lock screen.
-**4d.** If you enable **Allow access to all variants of this application**, this implements a match to any application window on the endpoint whose Windows metadata fields contain the field values you specify. If you enable this option, be careful to ensure that you do not get undesired windows appearing atop the lock screen. If you don't enable this option, exact matches are required for the field values you specify.
+
+  - **4a.** For the **App instance** field, enter the `WMAppInterface` or the `WMAppInstance` attribute you found, depending on which discovery method you used. Those two slightly different log entry names identify the same attribute.
+
+  - **4b.** Entering metadata values in two or three fields, rather than in only one field, can help ensure that only the desired application window is allowed atop the lock screen.
+
+  - **4c.** No error checking occurs for the field values. If you enter an incorrect value, the Admin Console accepts it, but the system does not allow the desired window above the lock screen.
+  - **4d.** If you enable **Allow access to all variants of this application**, this implements a match to any application window on the endpoint whose Windows metadata fields contain the field values you specify. If you enable this option, be careful to ensure that you do not get undesired windows appearing atop the lock screen. If you don't enable this option, exact matches are required for the field values you specify.
+
 `Click Save`.
 5. Reboot your ProveID Embedded endpoint to cause the new configuration value to take effect for that endpoint.
 6. Test viewing the application window atop the Imprivata ProveID Embedded lock screen on that endpoint:
-**6a.** If the application is a native application, trigger the Imprivata ProveID Embedded lock screen and then launch the application using a hotkey or some other method. You cannot launch native apps from the ProveID Embedded agent interface.
-**6b.** If your application is virtual, launch the application and then trigger the Imprivata ProveID Embedded lock screen.
+
+  - **6a.** If the application is a native application, trigger the Imprivata ProveID Embedded lock screen and then launch the application using a hotkey or some other method. You cannot launch native apps from the ProveID Embedded agent interface.
+  - **6b.** If your application is virtual, launch the application and then trigger the Imprivata ProveID Embedded lock screen.
 The application should stay atop the lock screen.
-**6c.** If it does not, review the metadata field values where you obtained them and in the Lock screen access list in the Admin Console. If needed, obtain fresh metadata field values. Correct any errors in the metadata values in the Admin Console. Then return to step 5. If one or more undesired application windows appear atop the lock screen, deselect checkbox **Allow access to all variants of this application** if it is checked. Then return to step 5.
+
+  - **6c.** If it does not, review the metadata field values where you obtained them and in the Lock screen access list in the Admin Console. If needed, obtain fresh metadata field values. Correct any errors in the metadata values in the Admin Console. Then return to step 5. If one or more undesired application windows appear atop the lock screen, deselect checkbox **Allow access to all variants of this application** if it is checked. Then return to step 5.
 7. Reboot all other Imprivata ProveID Embedded clients for which you want the new configuration value to take effect, for example, all Imprivata ProveID Embedded clients at a site or in the enterprise.
 8. If you enabled logging of application window activity on one Imprivata ProveID Embedded endpoint in Getting Metadata Field Values for an Application Window from a Log File, disable that logging. Reset configuration option log-activity to false in the [windows.monitor] section of the imprivata.conf configuration file on that endpoint.
 
