@@ -212,7 +212,46 @@ Steps:
 **Note:** This example is a screensaver that hides the screen at 2 minutes, and locks at 15 minutes.
 
 ![image01](Images/HOWTO-Imprivata-Notes-01.png)
-![image01](Images/HOWTO-Imprivata-Notes-02.png)
+![image02](Images/HOWTO-Imprivata-Notes-02.png)
+
+-----
+
+## Getting Metadata Field Values for Conky Window using the xprop Utility
+
+![image03](Images/HOWTO-Imprivata-Notes-03.png)
+
+Steps:
+
+- Open a terminal window as user and run `xprop`
+- Move the mouse cursor over the `Conky` window and `click mouse button`
+
+Output from `xprop` on `Conky` window:
+
+```
+_NET_FRAME_EXTENTS(CARDINAL) = 0, 0, 0, 0
+_NET_WM_ALLOWED_ACTIONS(ATOM) = _NET_WM_ACTION_CLOSE, _NET_WM_ACTION_ABOVE, _NET_WM_ACTION_BELOW, _NET_WM_ACTION_FULLSCREEN, _NET_WM_ACTION_MOVE, _NET_WM_ACTION_RESIZE, _NET_WM_ACTION_MAXIMIZE_HORZ, _NET_WM_ACTION_MAXIMIZE_VERT, _NET_WM_ACTION_CHANGE_DESKTOP, _NET_WM_ACTION_STICK
+WM_STATE(WM_STATE):
+window state: Normal
+icon window: 0xe1b01100
+_NET_WM_DESKTOP(CARDINAL) = 0
+_NET_WM_STATE(ATOM) = _NET_WM_STATE_SKIP_TASKBAR, _NET_WM_STATE_BELOW
+_WIN_LAYER(CARDINAL) = 0
+_MOTIF_WM_HINTS(_MOTIF_WM_HINTS) = 0x2, 0x0, 0x0, 0x0, 0x0
+_NET_WM_WINDOW_TYPE(ATOM) = _NET_WM_WINDOW_TYPE_NORMAL
+WM_PROTOCOLS(ATOM): protocols  
+WM_NAME(STRING) = "conky (ITC6845F1391E31)"
+WM_LOCALE_NAME(STRING) = "en_US.UTF-8"
+  ```
+**WM_CLASS(STRING) = "Conky", "Conky"**
+
+```
+WM_HINTS(WM_HINTS):
+Client accepts input or input focus: False
+Initial state is Normal State.
+WM_CLIENT_MACHINE(STRING) = "ITC6845F1391E31"
+WM_COMMAND(STRING) = { "/usr/bin/conky" }
+  ```
+
 
 -----
 
