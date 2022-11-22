@@ -146,6 +146,7 @@ To add the metadata field values for the application window to the Admin Console
   - **4d.** If you enable **Allow access to all variants of this application**, this implements a match to any application window on the endpoint whose Windows metadata fields contain the field values you specify. If you enable this option, be careful to ensure that you do not get undesired windows appearing atop the lock screen. If you don't enable this option, exact matches are required for the field values you specify.
 
 `Click Save`.
+
 5. Reboot your ProveID Embedded endpoint to cause the new configuration value to take effect for that endpoint.
 6. Test viewing the application window atop the Imprivata ProveID Embedded lock screen on that endpoint:
 
@@ -154,7 +155,9 @@ To add the metadata field values for the application window to the Admin Console
 The application should stay atop the lock screen.
 
   - **6c.** If it does not, review the metadata field values where you obtained them and in the Lock screen access list in the Admin Console. If needed, obtain fresh metadata field values. Correct any errors in the metadata values in the Admin Console. Then return to step 5. If one or more undesired application windows appear atop the lock screen, deselect checkbox **Allow access to all variants of this application** if it is checked. Then return to step 5.
+
 7. Reboot all other Imprivata ProveID Embedded clients for which you want the new configuration value to take effect, for example, all Imprivata ProveID Embedded clients at a site or in the enterprise.
+
 8. If you enabled logging of application window activity on one Imprivata ProveID Embedded endpoint in Getting Metadata Field Values for an Application Window from a Log File, disable that logging. Reset configuration option log-activity to false in the [windows.monitor] section of the imprivata.conf configuration file on that endpoint.
 
 ```
