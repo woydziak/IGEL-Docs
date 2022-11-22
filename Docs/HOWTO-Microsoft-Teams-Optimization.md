@@ -51,8 +51,9 @@ Steps to install the PWA into Microsoft Edge:
 
 -----
 
-**NOTE:** Once Teams PWA application is installed, then the following shortcut can be created:
+### Create shotcut for Teams PWA application
 
+**NOTE:** A reboot may be needed for the Teams icon to show up.
 
 - Command Line (cmdline):
 
