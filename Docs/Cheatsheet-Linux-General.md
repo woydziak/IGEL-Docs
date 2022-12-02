@@ -437,6 +437,28 @@ service handler
 systemctl restart network-manager
 ```
 
+## comm
+
+compare two sorted files line by line
+
+**Simple method to determine command line to run (such as IGEL setup or IGEL About):**
+
+```bash
+# what processes are running BEFORE item is run?
+ps -ef | sort > /tmp/ps1.txt
+
+# what processes are running AFTER item is run?
+ps -ef | sort > /tmp/ps2.txt
+
+# what are the new processes?
+# comm only showing processes in /tmp/ps2.txt
+comm -1 -3 /tmp/ps1.txt /tmp/ps2.txt
+```
+
+**Start IGEL setup:** /bin/bash /config/bin/start_setup
+
+**Start IGLE About:** applauncher -style gtk2 --aboutOnly
+
 ## compgen
 
 list all the linux commands (including bash shell aliases and functions)

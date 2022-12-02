@@ -7,6 +7,7 @@
 | [cat](Cheatsheet-Linux-General.md#cat)                     | display the content of a file              |
 | [cd](Cheatsheet-Linux-General.md#cd)                       | change folder                              |
 | [chmod](Cheatsheet-Linux-General.md#chmod)                 | change file attributes                     |
+| [comm](Cheatsheet-Linux-General.md#comm)             | compare two sorted files line by line |
 | [compgen](Cheatsheet-Linux-General.md#compgen)             | list all the linux commands                |
 | [cp](Cheatsheet-Linux-General.md#cp)                       | copy files and folders                     |
 | [date](Cheatsheet-Linux-General.md#date)                   | date tool                                  |
