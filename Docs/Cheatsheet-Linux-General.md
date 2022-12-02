@@ -455,9 +455,9 @@ ps -ef | sort > /tmp/ps2.txt
 comm -1 -3 /tmp/ps1.txt /tmp/ps2.txt
 ```
 
-**Start IGEL setup:** /bin/bash /config/bin/start_setup
+**Start IGEL setup:** `/bin/bash /config/bin/start_setup`
 
-**Start IGLE About:** applauncher -style gtk2 --aboutOnly
+**Start IGLE About:** `applauncher -style gtk2 --aboutOnly`
 
 ## compgen
 
