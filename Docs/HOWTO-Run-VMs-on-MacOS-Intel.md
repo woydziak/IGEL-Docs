@@ -4,7 +4,7 @@
 
 ## MacOS (Intel) Ventura (13.x) bridged Networking works with VirtualBox (7.0.4)
 
-VirtualBox (7.0.4) supported bridged networking on MacOS (Intel) Monterey.
+VirtualBox (7.0.4) supports bridged networking on MacOS (Intel) Monterey.
 
 Details for creating IGEL OS VM on VirtualBox can be found in:
 
