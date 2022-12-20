@@ -117,7 +117,7 @@ Save the change and reboot without the “Force VESA driver” option being set.
 
 [IGEL OS Boot Menu Explained – Video](https://videos.igelcommunity.com/igel-os-boot-menu-explained-video/)
 
-[IGEL KB - Boot Menu](https://kb.igel.com/igelos-11.07/en/boot-menu-57334298.html)
+[IGEL KB - Boot Menu](https://kb.igel.com/igelos-11.08.200/en/boot-menu-69177300.html)
 
 -----
 
@@ -168,7 +168,7 @@ rm -rf $tmp_dir
 
 The IGEL Linux Registry offers a number of extended logging options that can help customers, Support and PreSales debug system and network issues.
 
-https://kb.igel.com/igellinux/en/extended-logging-with-syslog-tcpdump-and-netlog-4237474.html
+https://kb.igel.com/igelos-11.08.200/en/extended-logging-with-syslog-tcpdump-and-netlog-69176254.html
 
 -----
 
