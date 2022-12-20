@@ -18,7 +18,7 @@ OpenConnect is a cross-platform multi-protocol SSL VPN client which supports a n
 
 ## Steps to enable OpenConnect VPN Client
 
-IGEL Knowledge Base: [OpenConnect VPN](https://kb.igel.com/igelos-11.08/en/openconnect-vpn-63804977.html)
+IGEL Knowledge Base: [OpenConnect VPN](https://kb.igel.com/igelos-11.08.200/en/openconnect-vpn-69178082.html)
 
 -----
 
