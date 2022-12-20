@@ -38,6 +38,8 @@ rtt min/avg/max/mdev = 0.361/0.581/0.758/0.173 ms
 ```
 ## nc
 
+Use nc to test IGEL communication (Device, UMS, ICG) -- [LINK](HOWTO-Setup-Lab-Sandbox-Environment.md#ums-tofrom-igel-os-communication-ports-no-icg)
+
 Use nc to test Microsoft Teams communication - Microsoft API URLs and IPs
 
 If Microsoft Teams is not running in optimized mode, then check that the IGEL endpoint can communicate with the Microsoft API URLs and IPs.
