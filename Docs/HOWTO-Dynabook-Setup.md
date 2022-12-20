@@ -4,7 +4,7 @@
 
 ## Product: TECRA A40-J (PMM10U) || Version: PMM10U-00101U
 
-### Tested with [IGEL OS 11.07.110](https://www.igel.com/software-downloads/workspace-edition/)
+### Tested with [IGEL OS 11.07.170+](https://www.igel.com/software-downloads/workspace-edition/)
 
 ### Dynabook: [Demo Video](https://www.linkedin.com/posts/dynabookeurope_igel-igelos-vdisec-activity-6879395877476147200-XU6L)
 
@@ -49,7 +49,7 @@
 9. Save the settings and exit [F10].
 10. Connect the IGEL OSC USB stick to the device.
 11. Reboot the device.
-12. You can continue with the [IGEL OS installation procedure](https://kb.igel.com/igelos-11.06.210/en/installation-procedure-54082923.html).
+12. You can continue with the [IGEL OS installation procedure](https://kb.igel.com/igelos-11.08.200/en/installation-procedure-69178239.html)
 
 -----
 
