@@ -43,7 +43,7 @@ sudo apt install chrony -y
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt autoremove -y
-sudo apt install gcc make perl -y
+sudo apt-get install build-essential gcc make perl dkms -y
 sudo reboot now
    ```
 
