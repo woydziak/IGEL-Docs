@@ -191,9 +191,15 @@ App instance (WMAppinstance):  igel_screensaver
 
 -----
 
-## 1 December 2022 - OneSign 7.8 and 11.08.200
+## 28 December 2022 - Update
 
 Imprivata has finished the qualification of OS 11.08.200 and backed it up to OneSign 7.8 or higher. Any IGEL / Imprivata customer/prospect should skip over 11.07.xx versions and use 11.08.200 or later. 11.08.200 contains fixes for the Persistent App workflow. There are other fixes for the PIE vendor helper script that have had positive results in VMWare environments on older / lower performing hardware.
+
+Combination to test with:
+
+- IGEL OS 11.08.200 +
+- Imprivata Appliance version 7.9 HF3
+- Imprivata PIE Agent 7.9.003.0039
 
 -----
 
