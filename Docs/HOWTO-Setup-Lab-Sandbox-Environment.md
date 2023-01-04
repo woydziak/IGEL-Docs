@@ -128,6 +128,11 @@ All communication over 8443 (default) or 443 as defined during installation of I
 
 Core (with ICG) : 8443 (default) or 443. From IGEL OS: `nc -v -z ICG-SERVER-IP-ADDRESS 8443` or `nc -v -z ICG-SERVER-IP-ADDRESS 443`
 
+**NOTES:**
+
+- The only supported option for ICG is to have direct access to port 8443/443 over a public facing IP address.
+- Also make sure the ICG, UMS, and IGEL OS clients are using [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) for time services.
+
 -----
 
 ## Optional - Install ICG from UMS
