@@ -37,3 +37,15 @@ System > Firmware Customization > Custom Commands > Desktop
 ```bash
 echo on | tee /sys/bus/usb/devices/*/power/level > /dev/null
 ```
+
+-----
+
+## Add USB attached Printer
+
+```bash
+#!/bin/bash
+
+USBDEVICE=$(/usr/lib/cups/backend/usb | cut -d " " -f 2)
+
+lpadmin -p USBPRINTER -E -v "${USBDEVICE}" -m /wfs/USBPRINTER.ppd
+```
