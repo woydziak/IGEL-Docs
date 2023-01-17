@@ -35,7 +35,7 @@ The PWA provides the latest Microsoft Teams features via a native IGEL client.
 
 The PWA offers access to more capabilities, including custom backgrounds, gallery view, reactions, the raise-a-hand feature in meetings, large gallery and Together mode views, etc..
 
-[Steps to install the PWA into Chromium](https://leon-beitsch.de/shared/IGEL_OS_with_Chromium.pdf)
+[Steps to install the PWA into Chromium](https://www.igelcommunity.com/post/how-to-igel-os-with-teams-pwa-progressive-web-app)
 
 -----  
 
