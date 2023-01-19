@@ -21,7 +21,18 @@ flowchart LR
     11.08.100-- 2022-09-15 -->11.08.110-- 2022-09-20 -->11.08.111
     11.08.100-- 2022-09-07 -->11.08.101
     click 11.08.236 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.236.txt" "Open this in a new tab"
+    click 11.08.235 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.235.txt" "Open this in a new tab"
     click 11.08.230 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.230.txt" "Open this in a new tab"
+    click 11.08.219 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.219.txt" "Open this in a new tab"
+    click 11.08.218 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.218.txt" "Open this in a new tab"
+    click 11.08.216 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.216.txt" "Open this in a new tab"
+    click 11.08.215 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.215.txt" "Open this in a new tab"
+    click 11.08.212 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.212.txt" "Open this in a new tab"
+    click 11.08.211 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.211.txt" "Open this in a new tab"
+    click 11.08.207 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.207.txt" "Open this in a new tab"
+    click 11.08.205 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.205.txt" "Open this in a new tab"
+    click 11.08.204 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.204.txt" "Open this in a new tab"
+    click 11.08.202 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.202.txt" "Open this in a new tab"
     click 11.08.200 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.200.txt" "Open this in a new tab"
 ```
 
