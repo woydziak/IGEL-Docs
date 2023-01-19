@@ -21,7 +21,8 @@ flowchart LR
     11.08.100-- 2022-09-15 -->11.08.110-- 2022-09-20 -->11.08.111
     11.08.100-- 2022-09-07 -->11.08.101
     click 11.08.236 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.236.txt" "Open this in a new tab"
-    click 11.08.236 href "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.236.txt" "Open this in a new tab"
+    click 11.08.230 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.230.txt" "Open this in a new tab"
+    click 11.08.200 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.200.txt" "Open this in a new tab"
 ```
 
 ----
