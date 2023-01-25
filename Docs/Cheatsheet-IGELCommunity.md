@@ -59,6 +59,7 @@
 | df -h                                                   | Shows Partition usage                                       |
 | florence                                                | OnScreen Keyboard                                           |
 | [get](Cheatsheet-IGELOS-General.md#get)                 | Get Variable from registry                                  |
+| get_icg_status                                          | Get status of ICG connection |
 | get_rmsettings                                          | Get UMS config (reboot to apply)                            |
 | [get_unit_id](Cheatsheet-IGELOS-General.md#get_unit_id) | Get the Unit ID                                             |
 | [getmyip](Cheatsheet-IGELOS-General.md#getmyip)         | show device IP                                              |
