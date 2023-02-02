@@ -8,6 +8,13 @@
 
 -----
 
+## Communication one-to-one vs. three (3) or more:
+
+- If there are two (2) participants, communication is established as peer connection between the two IGEL devices.
+- If there are three (3) or more, the peer is broken and all is orchestrated through the teams servers in the cloud. So, when 3 or more, IGEL OS sends the videos stream to a server in azure, that combine all video streams and send to all patisipants.
+
+-----
+
 ## How to Check communication to the Microsoft API URLs and IPs?
 
 If Microsoft Teams is not running in optimized mode, then check that the IGEL endpoint can communicate with the Microsoft API URLs and IPs?
