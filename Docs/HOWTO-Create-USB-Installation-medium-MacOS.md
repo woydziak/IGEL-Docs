@@ -14,7 +14,7 @@
 
 1) Install USB drive
 2) Open Terminal
-3) Find device mount point
+3) Find device mount point (`diskutil list`)
 
    ```bash
    % diskutil list
@@ -41,7 +41,7 @@
       2:                  Apple_HFS                         2.5 MB     disk2s2
    ```
 
-4) Unmount USB drive
+4) Unmount USB drive (`diskutil unmount /dev/diskX`)
 
    ```bash
    % diskutil unmountdisk /dev/disk2
@@ -62,7 +62,7 @@
    readme11.04.100.txt
    ```
 
-5) Copy ISO image to USB drive
+5) Copy ISO image to USB drive (`sudo dd if=OSC-file.iso of=/dev/rdiskX bs=1m`)
 
    ```bash
    % sudo dd if=osc11.04.100.iso of=/dev/rdisk2 bs=1m
