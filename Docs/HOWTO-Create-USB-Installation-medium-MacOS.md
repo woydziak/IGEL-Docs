@@ -1,6 +1,14 @@
 # HOWTO Create USB installation medium (MacOS)
 
-## IGEL - Apple Mac - Create USB Boot Image
+## IGEL OS Creator Manual
+
+### [Create USB installation medium (Windows)](https://kb.igel.com/igelos-11.08.200/en/create-usb-installation-medium-windows-69178228.html)
+
+### [Create USB installation medium (Linux)](https://kb.igel.com/igelos-11.08.200/en/create-usb-installation-medium-linux-69178235.html)
+
+-----
+
+## Create USB installation medium (Appe MacOS)
 
 ### Steps
 
