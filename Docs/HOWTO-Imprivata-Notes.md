@@ -290,4 +290,4 @@ Monitor the log file: `tail -f /usr/lib/imprivata/runtime/log/OneSignAgent.log`
 
 **Q:** How to verify the Imprivata Appliance Certificate
 
-**A:** IGEL supports the Imprivata appliance cert(s) in either the .crt or .cer format.  Newer appliances often download as a .crt. When uploading the certificate to UMS, make sure to select the file as "SSL Certificate".  Once the certificate is deployed to the device, it will install in the /wfs/ca-certs directory. On the device the certificate can be verified by opening a terminal window and running the following command `openssl verify ssoCA.crt`  or `openssl verify ssoCA.cer`
+**A:** IGEL supports the Imprivata appliance cert(s) in either the .crt or .cer format.  Newer appliances often download as a .crt. When uploading the certificate to UMS, make sure to select the file as "SSL Certificate".  Once the certificate is deployed to the device, it will install in the /wfs/ca-certs directory. On the device the certificate can be verified by opening a terminal window and running the following command `cd /wfs/ca-certs; openssl verify ssoCA.crt`  or `cd /wfs/ca-certs; openssl verify ssoCA.cer`
