@@ -294,4 +294,4 @@ Monitor the log file: `tail -f /usr/lib/imprivata/runtime/log/OneSignAgent.log`
 
 **Q:** How to reset device in appliance mode if the agent installation is no longer working?
 
-**A:** One method is to move the device from directory that has a profile configured for appliance mode. This will clear off the Imprivata agent and then reenable it without a factory reset.  
+**A:** Steps: `(1)` In UMS, move the device to a directory where the Imprivata appliance mode is disabled; `(2)` Then reboot - The reboot makes sure the old Imprivata data partition is gone; `(3)` Move the device back into the directory to re-enable the Imprivata Appliance mode.
