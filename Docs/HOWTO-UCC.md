@@ -53,3 +53,9 @@ https://help.webex.com/en-us/article/ntp1us7/Webex-App-%7C-VDI-release-notes#Cis
  **Must** keep up the race to stay on latest version of IGEL OS so as to not fall out of sync with backend releases as noted in links above.
 
  For example, when the latest version was 43.5, then [IGEL OS 11.08.248](https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.248.txt) is needed since it includes the plugin for Cisco Webex Meetings VDI plugin 42.10.
+
+-----
+
+## [Citrix HDX Webcam redirection for 64-bit applications. HowTo guide!](https://virtualbrat.com/2023/02/23/citrix-hdx-webcam-redirection-for-64-bit-applications-how-to-guide/)
+
+-----
