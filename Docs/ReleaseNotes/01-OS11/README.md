@@ -8,6 +8,7 @@ Shows the brances of IGEL OS.
 
 ```mermaid
 flowchart LR
+    11.08.200-- 2022-02-24 -->11.08.262
     11.08.243-- 2022-02-10 -->11.08.251
     11.08.230-- 2022-02-06 -->11.08.247
     11.08.230-- 2022-02-02 -->11.08.244
@@ -27,6 +28,7 @@ flowchart LR
     11.08.110-- 2022-09-22 -->11.08.112.DER
     11.08.100-- 2022-09-15 -->11.08.110-- 2022-09-20 -->11.08.111
     11.08.100-- 2022-09-07 -->11.08.101
+    click 11.08.262 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.262.txt" "Open this in a new tab"
     click 11.08.261 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.261.txt" "Open this in a new tab"
     click 11.08.257 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.257.txt" "Open this in a new tab"
     click 11.08.252 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.252.txt" "Open this in a new tab"
