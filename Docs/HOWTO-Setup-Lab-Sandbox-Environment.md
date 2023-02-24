@@ -2,6 +2,74 @@
 
 -----
 
+## IGEL Security Ports One Pager
+
+```mermaid
+flowchart TD
+  A[UMS Console]-- Port 5900 TCP SSL Tunnel Encrypted VNC-data --> B[\Intranet IGEL Devices/]
+  A[UMS Console]-- Port 8443 TCP --> C[UMS Server]
+  C[UMS Server]<-- Port 8443 TCP --> B[\Intranet IGEL Devices/]
+  C[UMS Server]-- MS Acive Directory Services Port --> D[(MS Active Directory Services)]
+  C[UMS Server]-- DB Port--> E[(UMS DB)]
+  C[UMS Server]-- Port 30022 TCP --> B[\Intranet IGEL Devices/]
+  C[UMS Server]-- Port 30005 TCP UDP --> B[\Intranet IGEL Devices/]
+  C[UMS Server]-- Port 8443/443 TCP --> F[IGEL Cloud Gateway]
+  B[\Intranet IGEL Devices/]-- Port 30001 TCP --> C[UMS Server]
+  G[/Internet IGEL Devices\]-- Port 8443/443 TCP --> H((Internet Connection))
+  H((Internet Connection))<-- Port 8443/443 TCP --> F[IGEL Cloud Gateway]
+  C[UMS Server]-- Port 443 TCP --> H((Internet Connection))
+  H((Internet Connection))-- Port 443 TCP --> I[UMS Download Server]
+  H((Internet Connection))-- Port 443 TCP --> J[UMS Licensing Server]
+```
+
+### IGEL Devices
+
+- Port 5900 (TCP) Incoming
+- Port 30005 (TCP/UDP) Incoming
+- Port 30001 (TCP) Outgoing
+- Port 8443 (TCP) Incoming / Outgoing
+- Port 30022 (TCP) Incoming
+
+### UMS Console
+
+- Port 5900 (TCP) Outgoing for invoking VNC session
+- Port 8443 (TCP) Outgoing
+
+### UMS Server
+
+- Port 443 (TCP) Outgoing
+- Port 8443 (TCP) Incoming / Outgoing
+- Port 30001 (TCP) Incoming
+
+### UMS Server 1+n with Loadbalancer on same server
+
+- Port 30002 (TCP)
+
+### Microsoft Active Directory Services
+
+- LDAP: Port 389 (TCP) Outgoing
+- LDAPS: Port 636 (TCP) Outgoing
+
+### UMS DB
+
+- Microsoft SQL: Port 1433 (TCP) Incoming
+- Oracle: Port 1521 (TCP) Incoming
+- Apache Derby: Port 1527 (TCP) Incoming
+- PostgreSQL: Port 5432 (TCP) Incoming
+
+### UMS Licensing Server
+
+- fwus.igel.com
+- susi.igel.com
+- Port 443 TCP Incoming
+
+### UMS Download Server
+
+- fwus.igel.com
+- Port 443 TCP Incoming
+
+-----
+
 ## Summary of Steps to Create Lab Sandbox Environment
 
 -	Setup PC file system
