@@ -85,6 +85,14 @@
 | pkcs11getloginname                                      | Shows extracted smart card login name                       |
 | reset_to_defaults                                       | Factory reset                                               |
 | rmagent_cli                                             | UMS Agent commandline                                       |
+| rmagent-devattrs-enum | Lists all device attributes including the current value for this device. The enumeration is ordered according to the attribute's order id. |
+| rmagent-devattrs-enum-range <ATTRIBUTE_NAME> | Enumerates entries of the given range. The enumeration is ordered according to the range item's order id. |
+| rmagent-devattrs-get-type <ATTRIBUTE_NAME> | Prints the type of the given attribute |
+| rmagent-devattrs-get <ATTRIBUTE_NAME> | Prints the current value of the given attribute |
+| rmagent-devattrs-set <ATTRIBUTE_NAME> <ATTRIBUTE_VALUE> | Sets the given attribute to the specified value |
+| rmagent-devattrs-reset <ATTRIBUTE_NAME> | Resets the given attribute to an empty value |
+| rmagent-devattrs-sync | Send Attributes to UMS If a Value Has Been Changed by Device |
+| magent-write-device-attributes | The complete set of attributes is sent to the UMS |
 | rmregister                                              | Start tool to register @ UMS                                |
 | setcryptparam                                           | Saves encrypted Data like Password to Igel Registry         |
 | setcryptparam                                           | Write a password to the registry                            |
