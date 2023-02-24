@@ -7,19 +7,19 @@
 ```mermaid
 flowchart TD
   A[UMS Console]-- Port 5900 TCP SSL Tunnel Encrypted VNC-data --> B[\Intranet IGEL Devices/]
-  A[UMS Console]-- Port 8443 TCP --> C[UMS Server]
-  C[UMS Server]<-- Port 8443 TCP --> B[\Intranet IGEL Devices/]
-  C[UMS Server]-- MS Active Directory Services Port --> D[(MS Active Directory Services)]
-  C[UMS Server]-- DB Port--> E[(UMS DB)]
-  C[UMS Server]-- Port 30022 TCP --> B[\Intranet IGEL Devices/]
-  C[UMS Server]-- Port 30005 TCP UDP --> B[\Intranet IGEL Devices/]
-  C[UMS Server]-- Port 8443/443 TCP --> F[IGEL Cloud Gateway]
-  B[\Intranet IGEL Devices/]-- Port 30001 TCP --> C[UMS Server]
+  A[UMS Console]-- Port 8443 TCP --> C{UMS Server}
+  C{UMS Server}<-- Port 8443 TCP --> B[\Intranet IGEL Devices/]
+  C{UMS Server}-- MS Active Directory Services Port --> D[(MS Active Directory Services)]
+  C{UMS Server}-- DB Port--> E[(UMS DB)]
+  C{UMS Server}-- Port 30022 TCP --> B[\Intranet IGEL Devices/]
+  C{UMS Server}-- Port 30005 TCP UDP --> B[\Intranet IGEL Devices/]
+  C{UMS Server}-- Port 8443/443 TCP --> F{IGEL Cloud Gateway}
+  B[\Intranet IGEL Devices/]-- Port 30001 TCP --> C{UMS Server}
   G[/Internet IGEL Devices\]-- Port 8443/443 TCP --> H((Internet Connection))
-  H((Internet Connection))<-- Port 8443/443 TCP --> F[IGEL Cloud Gateway]
-  C[UMS Server]-- Port 443 TCP --> H((Internet Connection))
-  H((Internet Connection))-- Port 443 TCP --> I[UMS Download Server]
-  H((Internet Connection))-- Port 443 TCP --> J[UMS Licensing Server]
+  H((Internet Connection))<-- Port 8443/443 TCP --> F{IGEL Cloud Gateway}
+  C{UMS Server}-- Port 443 TCP --> H((Internet Connection))
+  H((Internet Connection))-- Port 443 TCP --> I[[UMS Download Server]]
+  H((Internet Connection))-- Port 443 TCP --> J[[UMS Licensing Server]]
 ```
 
 ### IGEL Devices
