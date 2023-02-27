@@ -45,7 +45,7 @@ echo on | tee /sys/bus/usb/devices/*/power/level > /dev/null
 ```bash
 #!/bin/bash
 
-USBDEVICE=$(/usr/lib/cups/backend/usb | cut -d " " -f 2)
+USBDEVICE=$(/usr/lib/cups/backend/usb 2>/dev/null | cut -d " " -f 2)
 
 lpadmin -p USBPRINTER -E -v "${USBDEVICE}" -m /wfs/USBPRINTER.ppd
 ```
