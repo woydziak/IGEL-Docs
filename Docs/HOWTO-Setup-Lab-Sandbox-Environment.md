@@ -238,3 +238,10 @@ Use pfSense to create firewall (DMZ)
 ![image01](Images/HOWTO-Setup-Lab-Sandbox-Environment-01.png)
 ![image02](Images/HOWTO-Setup-Lab-Sandbox-Environment-02.png)
 ![image03](Images/HOWTO-Setup-Lab-Sandbox-Environment-03.png)
+
+-----
+
+# [Proof of Concept Checklist](IGEL-KB/00-PoC_Checklist.pdf)
+
+Guide to setup a basic Proof of Concept of IGEL solution for internal and external users.
+
