@@ -1,8 +1,26 @@
 # IGEL OS Branches
 
-Shows the brances of IGEL OS.
+Shows the branches of IGEL OS.
 
 ----
+
+
+
+## Legend
+```mermaid
+flowchart LR
+    A === B === C === D === E  
+    A[Public Build]
+    style A fill:#00FF00
+    B[Private Build]
+    style B fill:#
+    C[Dead End Release]
+    style C fill:#FFA500
+    D[Unreleased]
+    style D fill:#FFFF00
+    E[No RNs]
+    style E fill:#FFFFFF
+```
 
 ## IGEL OS 11.08
 
@@ -31,6 +49,13 @@ flowchart LR
     11.08.110-- 2022-09-22 -->11.08.112.DER
     11.08.100-- 2022-09-15 -->11.08.110-- 2022-09-20 -->11.08.111
     11.08.100-- 2022-09-07 -->11.08.101
+    style 11.08.100 fill:#00FF00
+    style 11.08.110 fill:#00FF00
+    style 11.08.112.DER fill:#FFA500
+    style 11.08.200 fill:#00FF00
+    style 11.08.230 fill:#00FF00
+    style 11.08.232 fill:#FFFFFF
+    style 11.08.255 fill:#FFFF00
     click 11.08.266 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.266.txt" "Open this in a new tab"
     click 11.08.265 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.265.txt" "Open this in a new tab"
     click 11.08.264 "https://github.com/IGEL-Community/IGEL-Docs/blob/main/Docs/ReleaseNotes/01-OS11/readme11.08.264.txt" "Open this in a new tab"
@@ -102,6 +127,11 @@ flowchart LR
   11.07.100-->11.07.107
   11.07.100-->11.07.103
   11.07.100-->11.07.102
+  style 11.07.920 fill:#00FF00
+  style 11.07.170 fill:#00FF00
+  style 11.07.140 fill:#00FF00
+  style 11.07.110 fill:#00FF00
+  style 11.07.100 fill:#00FF00
 ```
 
 ----
